@@ -1,0 +1,21 @@
+/*header*/
+.upper{
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+.upper_list{
+display: inline-block;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px; 
+}  
+
+
+.color_bos{
+    background-color: rgb(64, 96, 182);
+    ;
+}
