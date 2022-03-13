@@ -1,3 +1,7 @@
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+
 /*header*/
 .upper{
     background-color: rgb(7, 96, 168);
@@ -60,3 +64,16 @@ top: 24px;
      display: inline;
  }
  
+ /*photo*/
+ .Photo_one{
+    display: inline-block;
+   
+ }
+
+
+ /*footer*/
+
+ .sheet{
+    display: inline-block;
+     
+ }
