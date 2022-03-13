@@ -1,5 +1,7 @@
 /*header*/
 .upper{
+    background-color: rgb(7, 96, 168);
+    ;
     width: 1600px;
     height: 80px;
     left: 0px;
@@ -13,9 +15,48 @@ height: 31px;
 left: 215px;
 top: 24px; 
 }  
-
-
-.color_bos{
-    background-color: rgb(64, 96, 182);
-    ;
+.upper_lists{
+    left: 453px;
+    top: 32px;
+    color: white;
+ 
 }
+
+/*main*/
+ .basis{
+     background-color: rgba(33, 15, 196, 0.863);
+     width: 1600px;
+     height: 600px;
+}
+ .basis_mein{
+    position: relative;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+ }
+ .basis_job{
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left:700px;
+  top: 430px;
+ }
+ .basis_big{
+    display: inline-block;
+  
+ }
+ .basis_big_one{
+    display: inline;
+    
+ }
+ .basis_big_tu{
+     display: inline;
+ }
+
+ .basis_big_three{
+     display: inline;
+ }
+ 
