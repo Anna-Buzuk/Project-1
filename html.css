@@ -4,8 +4,6 @@ li {
 
 /*header*/
 .upper{
-    background-color: rgb(7, 96, 168);
-    ;
     width: 1600px;
     height: 80px;
     left: 0px;
@@ -13,28 +11,43 @@ li {
 }
 
 .upper_list{
+color: black;
 display: inline-block;
-width: 145px;
-height: 31px;
+width: 250px;
+height: 41px;
 left: 215px;
 top: 24px; 
+font-family: 'Roboto';
+font-style: normal;
+margin-left: 55px;
+
 }  
+
+ 
+
+
 .upper_lists{
     left: 453px;
     top: 32px;
-    color: white;
- 
+    color: rgb(15, 1, 1);
+    text-decoration:none;
 }
+
+.upper_lists:hover{
+   color: rgb(25, 124, 182);
+}
+
 
 /*main*/
  .basis{
      background-color: rgba(33, 15, 196, 0.863);
      width: 1600px;
      height: 600px;
+     
 }
  .basis_mein{
-    position: relative;
-    color:rgb(255, 255, 255);
+    position: absolute;
+    color:white;
     text-align: center;
     width: 696px;
     height: 120px;
@@ -50,20 +63,48 @@ top: 24px;
  }
  .basis_big{
     display: inline-block;
-  
- }
- .basis_big_one{
-    display: inline;
-    
- }
- .basis_big_tu{
-     display: inline;
- }
-
- .basis_big_three{
-     display: inline;
+  margin-left: 35px;
  }
  
+ .basis_big_one{
+   font-size: 20px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0.03em;
+   text-align: left;
+
+ }
+
+ .basis_min{
+   margin-top: 55px;
+   width: 1600px;
+   height: 186px; 
+   text-align: center;
+ }
+
+
+
+ .basis_min_tu{
+   font-size:70px; 
+   color:rgb(117, 18, 18);
+ }
+ 
+
+.basis_min_tfree{
+   font-size:70px; 
+   color:rgb(117, 18, 18);
+   animation: tfree 2s infinite;
+  
+ }
+
+ @keyframes tfree{
+   from{ opacity: 1;}
+   to{ opacity: 0;}
+ }
+
+
  /*photo*/
  .Photo_one{
     display: inline-block;
