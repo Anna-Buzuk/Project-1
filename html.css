@@ -106,11 +106,30 @@ margin-left: 55px;
 
 
  /*photo*/
- .Photo_one{
-    display: inline-block;
-   
+
+ .command{
+   width: 1600px;
+   height: 90px;   
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Roboto';
+   background: #F5F4FA;
  }
 
+
+.command_photo{
+   width: 1600px;
+   height: 400px;
+  
+   background: #F5F4FA;
+}
+ .Photo_one{
+    display: inline-block;
+    margin-left: 120px;
+    background-color: rgb(143, 13, 13);
+ }
+
+ 
 
  /*footer*/
 
