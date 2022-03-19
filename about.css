@@ -8,6 +8,10 @@
     top: 0px;
 }
 
+.a{
+    position: absolute;
+}
+
 .upper_list{
     color: black;
     display: inline-block;
@@ -35,15 +39,27 @@
 
      .big_info_one{
        margin-left: 120px;
+       margin-top: 55px;
+       margin-bottom: 55px;
+       width: 1400px;
+       height: 450px;
      }
      
      .big_info_two{
         margin-left: 120px; 
+        margin-top: 55px;
+       margin-bottom: 55px;
+       width: 1400px;
+       height: 450px;
      }
 
 
      .big_info_three{
-        margin-left: 120px; 
+        margin-left: 120px;
+        margin-top: 55px;
+       margin-bottom: 55px;
+       width: 1400px;
+       height: 450px; 
      }
 
 
@@ -75,7 +91,7 @@
         width: 400px;
         border-radius: 20px;
        display: inline-block;
-       border: 5px solid rgb(10, 2, 2)
+       border: 5px solid rgb(10, 2, 2);
      }
 
      .info_square_four{
