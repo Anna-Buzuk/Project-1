@@ -1,0 +1,138 @@
+
+
+/*header*/
+.upper{
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+.upper_list{
+    color: black;
+    display: inline-block;
+    width: 250px;
+    height: 41px;
+    left: 215px;
+    top: 24px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-left: 155px;
+    
+    }  
+
+    .upper_lists{
+        left: 453px;
+        top: 32px;
+        color: rgb(15, 1, 1);
+        text-decoration:none;
+    }
+
+    .upper_lists:hover{
+        color: rgb(25, 124, 182);
+     }
+     
+
+     .big_info_one{
+       margin-left: 120px;
+     }
+     
+     .big_info_two{
+        margin-left: 120px; 
+     }
+
+
+     .big_info_three{
+        margin-left: 120px; 
+     }
+
+
+
+     .info_square_one{
+         
+        background-color: rgb(231, 192, 192);
+         height: 400px;
+         width: 400px;
+        border-radius: 20px;
+        display: inline-block;
+        border: 5px solid rgb(10, 2, 2);
+        margin-right: 50px;
+     }
+
+     .info_square_two{
+        background-color: rgb(231, 192, 192);
+        height: 400px;
+        width: 400px;
+        border-radius: 20px;
+        display: inline-block;
+        border: 5px solid rgb(10, 2, 2);
+        margin-right: 50px;
+     }
+
+     .info_square_three{
+        background-color: rgb(231, 192, 192);
+        height: 400px;
+        width: 400px;
+        border-radius: 20px;
+       display: inline-block;
+       border: 5px solid rgb(10, 2, 2)
+     }
+
+     .info_square_four{
+        background-color: rgb(231, 192, 192);
+        height: 400px;
+        width: 400px;
+        border-radius: 20px;
+       display: inline-block;
+       border: 5px solid rgb(10, 2, 2);
+       margin-right: 50px;
+     }
+     
+     .info_square_five{
+        background-color: rgb(231, 192, 192);
+        height: 400px;
+        width: 400px;
+       border-radius: 20px;
+       display: inline-block;
+       border: 5px solid rgb(10, 2, 2);
+       margin-right: 50px;
+     }
+
+     .info_square_six{
+        background-color: rgb(231, 192, 192);
+        height: 400px;
+        width: 400px;
+       border-radius: 20px;
+       display: inline-block;
+       border: 5px solid rgb(10, 2, 2)
+     }
+
+     .info_square_seven{
+        background-color: rgb(231, 192, 192);
+        height: 400px;
+        width: 400px;
+       border-radius: 20px;
+       display: inline-block;
+       border: 5px solid rgb(10, 2, 2);
+       margin-right: 50px;
+     }
+
+     .info_square_eight{
+        background-color: rgb(231, 192, 192);
+        height: 400px;
+        width: 400px;
+       border-radius: 20px;
+       display: inline-block;
+       border: 5px solid rgb(10, 2, 2);
+       margin-right: 50px;
+     }
+
+     .info_square_nine{
+        background-color: rgb(231, 192, 192);
+        height: 400px;
+        width: 400px;
+       border-radius: 20px;
+       display: inline-block;  
+       border: 5px solid rgb(10, 2, 2);
+       
+     }
