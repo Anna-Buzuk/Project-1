@@ -8,9 +8,7 @@
     top: 0px;
 }
 
-.a{
-    position: absolute;
-}
+
 
 .upper_list{
     color: black;
@@ -152,3 +150,15 @@
        border: 5px solid rgb(10, 2, 2);
        
      }
+
+     
+ .sheet{
+   display: inline-block;
+  margin-left: 100px;
+  margin-right: 55px;
+}
+
+.down_part{
+
+
+}

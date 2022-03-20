@@ -118,7 +118,7 @@
 <div class="command_photo">
 <div class="Photo_one" >
     <img
-    src="./photo/photo_2022-03-13_15-09-44!.jpg" width="240">
+    src="./photo/photo_2022-03-13_15-09-44!.jpg" width="200">
    <ul>
        <li>
            Anastazja Buzuk
@@ -140,7 +140,7 @@
        Jan Kowalski 
         </li>
         <li>
-            Specjalista ds. rekrutacji    
+            Ds. rekrutacji    
         </li>
     </ul>
 </div>
@@ -152,7 +152,7 @@
          Janina Kowalska   
         </li>
         <li>
-        Specjalista ds.dokumentów
+        Ds.dokumentów
         </li>
     </ul>
 </div>
@@ -164,7 +164,7 @@
             Olha Ivanova
         </li>
         <li>
-            Specjalista ds. zakwaterowania
+            Ds. zakwaterowania
         </li>
     </ul>
 </div>
@@ -190,4 +190,45 @@
        </div>
    </footer>
 </body>
+
+   <form class="js-spaker-form">
+       <label for="name">Imię</label>
+       <input type="text" name="name" id="name" autofocus />
+       
+       <label for="tel"> Telefon</label>
+       <input type="tel" name="tel" id="tel"/>
+
+       <label for="email"> Email </label>
+       <input type="email" name="email" id="email"/>
+
+       <input type="checkbox" name="" value="Mam 18 lat" id="Mam 18 lat" />
+       <label> Mam 18 lat</label>
+
+       <textarea name="info" id="info" cols="" rows="8"  ></textarea>
+       <label for="info">Dodatkowe info</label>
+
+       <button tupe="submit">Wyślij</button>
+    </form>
+
+
+
+   <script>
+       (() => {
+           document
+           .guerySelector('.js-speaker-form')
+           .addEventListener('submit', e => {
+               e.preventDefault( );
+
+               new FormData(e.currentTarget).forEach((value, name) =>
+               console.log(`${name}: ${value}`),
+               );
+               e.currentTarget.reset( );
+           });
+       }
+       );
+   </script>
+
+
+
+
 </html>
