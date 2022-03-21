@@ -192,8 +192,22 @@ border-radius:  3px;
  .form-input:not(:placeholder-shown) + .form-label
   {
    transform: translateY(-50px);
+   color: rgb(226, 43, 67);
  }
 
- 
+ .icon{
+   position: absolute;
+   top: 30%;
+   left: 10px;
+   width: 20px;
+   height: 20px;
+   display: inline-block;
+   background-color: blueviolet;
+ }
 
+ .form-input:focus ~ .icon {
+   background-color: blue;
+ }
+ 
+ 
  
