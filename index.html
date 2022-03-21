@@ -192,22 +192,32 @@
 </body>
 
    <form class="js-spaker-form">
-       <label for="name">Imię</label>
-       <input type="text" name="name" id="name" autofocus />
+    <div class="form">
+    <div class="form-field">
+       <input type="text" class="form-input" name="name" id="name" placeholder="Imie"  />
+       <label for="name" class="form-label">Imię</label>
        
+    </div>
+    <div class="form-field">
        <label for="tel"> Telefon</label>
        <input type="tel" name="tel" id="tel"/>
-
+    </div>
+    <div class="form-field">
        <label for="email"> Email </label>
        <input type="email" name="email" id="email"/>
-
+    </div>
+    <div class="form-field">
        <input type="checkbox" name="" value="Mam 18 lat" id="Mam 18 lat" />
        <label> Mam 18 lat</label>
-
-       <textarea name="info" id="info" cols="" rows="8"  ></textarea>
-       <label for="info">Dodatkowe info</label>
-
+    </div>
+    <div class="form-field">
+       <textarea name="info" id="info" cols="" rows="8"  placeholder="Dodatkowe info" ></textarea>
+       <label for="info"></label>
+    </div>
+    <div class="form-field">
        <button tupe="submit">Wyślij</button>
+    </div>
+</div>
     </form>
 
 

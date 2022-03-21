@@ -140,3 +140,60 @@ margin-left: 55px;
  textarea {
    resize: none;
  }
+
+ .form{
+   width: 600px;
+   outline:1px solid tomato;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 20px;
+ }
+
+ .form-field{
+   position: relative;
+  margin-bottom: 20px; 
+  display: flex;
+  flex-direction: column;
+ }
+
+ .form-label{
+   position: absolute;
+   top: 50%;
+   left: 30px;
+   transform: translateY(-50%);
+   transition: 250ms linear;
+ }
+
+ .form-field input{
+   padding: 10px 20px;
+   border-radius:  3px;
+   border: 1px solid blue;
+   font-size: 20px;
+ }
+
+ .form-field label{
+   margin-bottom: 5px;
+ }
+
+ .form-field input::placeholder{
+   color: rgba(255, 248, 250, 0);
+ }
+
+ .form-input{
+margin: 0;
+font: inherit;
+border-radius:  3px;
+
+ }
+ 
+ 
+
+ .form-input:focus + .form-label,
+ .form-input:not(:placeholder-shown) + .form-label
+  {
+   transform: translateY(-50px);
+ }
+
+ 
+
+ 
