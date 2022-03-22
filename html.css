@@ -145,6 +145,7 @@ background-color: rgb(255, 254, 254);
 border-radius: 60%;
 margin-left: -30px;
 display: inline-block;
+justify-content: center;
 }
 
 .social-item:hover{
@@ -164,7 +165,7 @@ display: flex;
 }
 
 .social-aicon{
-  fill: rgba(175, 177, 184, 1);
+fill: rgba(175, 177, 184, 1);
  margin-left: 4px;
  margin-top: 3px;
 }
@@ -182,12 +183,48 @@ display: flex;
    resize: none;
  }
 
+
+ /*forma*/
+
+ .backdrop{
+   width: 100vw;
+   height: 100vw;
+   background-color: rgba(121, 121, 129, 0.541);
+   position: fixed;
+   top: 0;
+   left: 0;
+
+ }
+
+.modal{
+ width: 500px;
+ min-height: 500px;
+ background-color: white;
+ border-radius: 5px;
+ position: absolute;
+ top: 50%;
+ left:50%;
+ transform: translate(-80%, -130%);
+
+}
+
+.modal_close{
+  
+}
+.close-icon{
+  width: 18px;
+  height: 18px;
+}
+
  .form{
+   background-color: blueviolet;
    width: 600px;
-   outline:1px solid tomato;
+   outline:1px solid rgb(175, 33, 8);
+   margin-top: auto;
    margin-left: auto;
    margin-right: auto;
    padding: 20px;
+   
  }
 
  .form-field{
