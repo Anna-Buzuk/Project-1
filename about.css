@@ -137,3 +137,32 @@ overflow: hidden;
  height: 50px;
  border-radius: 15px;
 }
+
+.sheet{
+  display: inline-block;
+  color: antiquewhite;
+}
+
+textarea {
+ resize: none;
+}
+
+.size-foot{
+width: 1600px;
+height: 200px;
+background: rgba(47, 48, 58, 1);
+
+}
+
+.basement-hat{
+display: inline-block;
+}
+
+
+.basement-end{
+display: inline-block;
+}
+
+.middle-end{
+display: inline-block;
+}
