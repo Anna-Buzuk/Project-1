@@ -51,9 +51,9 @@
         Szukasz pracy? Pomożemy Ci!
       </h1> 
 </div>
-<button class="basis_job">
+<button  tupe="button" class="basis_job" data-modal-open>
     Wypełnić formularz
-  </button>
+</button>
   
 </div>
 <div>
@@ -311,10 +311,10 @@
 
 
 
-<div class="backdrop">
+<div class="backdrop is-hidden" data-modal>
     
 <div class="modal">
-<button tupe="button" class="modal-close">
+<button tupe="button" class="modal-close" data-modal-close>
     <svg class="close-icon">
         <use href="./photo/icons.svg#icon-cancel-circle" width="20" height="20"></use>
     </svg>
@@ -340,11 +340,11 @@
        <label> Mam 18 lat</label>
     </div>
     <div class="form-field">
-       <textarea name="info" id="info" cols="" rows="8"  placeholder="Dodatkowe info" ></textarea>
+       <textarea class="form-input" name="info" id="info" cols="" rows="8"  placeholder="Dodatkowe info" ></textarea>
        <label for="info"></label>
     </div>
     <div class="form-field">
-       <button tupe="submit">Wyślij</button>
+       <button tupe="submit" data-modal-close>Wyślij</button>
     </div>
 </div>
     </form>
@@ -356,25 +356,7 @@
 
 </div>
 
+<script src="./js/modal.js"></script>
+
 </body>
-
-   <script>
-       (() => {
-           document
-           .guerySelector('.js-speaker-form')
-           .addEventListener('submit', e => {
-               e.preventDefault( );
-
-               new FormData(e.currentTarget).forEach((value, name) =>
-               console.log(`${name}: ${value}`),
-               );
-               e.currentTarget.reset( );
-           });
-       }
-       );
-   </script>
-
-
-
-
 </html>

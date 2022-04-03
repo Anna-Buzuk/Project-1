@@ -188,7 +188,7 @@ fill: rgba(175, 177, 184, 1);
 
  .backdrop{
    width: 100vw;
-   height: 170vw;
+   height: 180vh;
    background-color: rgba(121, 121, 129, 0.541);
    position: fixed;
    top: 0;
@@ -196,9 +196,9 @@ fill: rgba(175, 177, 184, 1);
  }
 
 .modal{
- width: 500px;
+ width: 450px;
  min-height: 500px;
- background-color: white;
+ background-color: rgb(255, 255, 255);
  border-radius: 5px;
  position: absolute;
  top: 50%;
@@ -214,6 +214,7 @@ fill: rgba(175, 177, 184, 1);
   border-radius: 50px;
   width: 28px;
   height: 28px;
+  background-color: rgba(89, 85, 92, 0.281);
 }
 
 
@@ -226,11 +227,12 @@ fill: rgba(175, 177, 184, 1);
 }
 
 
-
  .form-field{
-   margin-top: 45px;
-   position: relative;
-  margin-bottom: 15px; 
+   margin-left: 40px;
+   margin-right: 40px;
+  margin-top: 30px;
+  position: relative;
+  margin-bottom: 5px; 
   display: flex;
   flex-direction: column;
  }
@@ -290,5 +292,11 @@ border-radius:  3px;
    background-color: blue;
  }
  
+
+ .is-hidden{
+   visibility: hidden;
+   opacity: 0;
+   pointer-events: none;
+ }
  
  
