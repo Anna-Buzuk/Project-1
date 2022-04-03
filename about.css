@@ -35,31 +35,12 @@
      }
      
 
-     .big_info_one{
-       margin-left: 120px;
-       margin-top: 55px;
-       margin-bottom: 55px;
+     .big_info_one,.big_info_two,.big_info_three {
+       margin: 50px;
+       display: inline-block;
      }
      
-     .big_info_two{
-        margin-left: 120px; 
-        margin-top: 55px;
-       margin-bottom: 55px;
-       width: 1400px;
-       height: 450px;
-       
-     }
-
-
-     .big_info_three{
-        margin-left: 120px;
-        margin-top: 55px;
-       margin-bottom: 55px;
-       width: 1400px;
-       height: 450px; 
-       
-     }
-
+     
 
 
      .info_square_one{
@@ -68,82 +49,44 @@
      }
 
      .info_square_two{
-        background-color: rgb(231, 192, 192);
-        height: 400px;
-        width: 400px;
-        border-radius: 20px;
         display: inline-block;
-        border: 5px solid rgb(10, 2, 2);
         margin-right: 50px;
      }
 
      .info_square_three{
-        background-color: rgb(231, 192, 192);
-        height: 400px;
-        width: 400px;
-        border-radius: 20px;
+      margin-right: 50px;
        display: inline-block;
-       border: 5px solid rgb(10, 2, 2);
      }
 
      .info_square_four{
-        background-color: rgb(231, 192, 192);
-        height: 400px;
-        width: 400px;
-        border-radius: 20px;
        display: inline-block;
-       border: 5px solid rgb(10, 2, 2);
        margin-right: 50px;
      }
      
      .info_square_five{
-        background-color: rgb(231, 192, 192);
-        height: 400px;
-        width: 400px;
-       border-radius: 20px;
        display: inline-block;
-       border: 5px solid rgb(10, 2, 2);
        margin-right: 50px;
      }
 
      .info_square_six{
-        background-color: rgb(231, 192, 192);
-        height: 400px;
-        width: 400px;
        border-radius: 20px;
        display: inline-block;
-       border: 5px solid rgb(10, 2, 2)
      }
 
      .info_square_seven{
-        background-color: rgb(231, 192, 192);
-        height: 400px;
-        width: 400px;
-       border-radius: 20px;
        display: inline-block;
-       border: 5px solid rgb(10, 2, 2);
        margin-right: 50px;
      }
 
      .info_square_eight{
-        background-color: rgb(231, 192, 192);
-        height: 400px;
-        width: 400px;
-       border-radius: 20px;
        display: inline-block;
-       border: 5px solid rgb(10, 2, 2);
        margin-right: 50px;
      }
 
      .info_square_nine{
-        background-color: rgb(231, 192, 192);
-        height: 400px;
-        width: 400px;
-       border-radius: 20px;
-       display: inline-block;  
-       border: 5px solid rgb(10, 2, 2);
-       
-     }
+      margin-right: 50px;
+      display: inline-block;  
+   }
 
      
  .sheet{
@@ -166,10 +109,10 @@
  line-height: 1.5;
  padding: 40px 30px;
  color:white;
- background-color: rgba(92, 56, 10, 0.897);
+ background-color: rgba(15, 48, 110, 0.897);
  transform: translateY(100%);
  transition: transform 300ms;
- overflow: auto;
+ overflow: scroll;
  text-align: center;
 }
 
@@ -184,4 +127,13 @@ overflow: hidden;
 
 .item-photo{
  
+}
+
+.inscription-above{
+ padding-top: 20px;
+ text-align: center;
+ background-color: rgb(233, 214, 214);
+ width: 400px;
+ height: 50px;
+ border-radius: 15px;
 }
