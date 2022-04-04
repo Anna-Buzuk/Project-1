@@ -1,38 +1,6 @@
 
 
-/*header*/
-.upper{
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-}
 
-
-
-.upper_list{
-    color: black;
-    display: inline-block;
-    width: 250px;
-    height: 41px;
-    left: 215px;
-    top: 24px; 
-    font-family: 'Roboto';
-    font-style: normal;
-    margin-left: 155px;
-    
-    }  
-
-    .upper_lists{
-        left: 453px;
-        top: 32px;
-        color: rgb(15, 1, 1);
-        text-decoration:none;
-    }
-
-    .upper_lists:hover{
-        color: rgb(25, 124, 182);
-     }
      
 
      .big_info_one,.big_info_two,.big_info_three {
