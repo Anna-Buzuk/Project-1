@@ -105,8 +105,8 @@ position: relative;
   border-radius: 14px;
   background-color: rgba(3, 3, 3, 0.411);
   -webkit-box-shadow: 22px 11px 19px 6px rgba(8, 20, 30, 0.52);
--moz-box-shadow: 22px 11px 19px 6px rgba(8, 20, 30, 0.52);
-box-shadow: 22px 11px 19px 6px rgba(8, 20, 30, 0.52);
+  -moz-box-shadow: 22px 11px 19px 6px rgba(8, 20, 30, 0.52);
+  box-shadow: 22px 11px 19px 6px rgba(8, 20, 30, 0.52);
  }
 
 .basis_job_col{
@@ -160,24 +160,34 @@ margin: 0px;
 }
 
  .basis_min{
-   margin-top: 230px;
+   margin-top: 150px;
    width: 1600px;
-   height: 186px; 
+   height: 86px; 
    text-align: center;
+   border-radius: 5%;
+   background-color: rgba(3, 3, 3, 0.411);
+   -webkit-box-shadow: 22px 11px 19px 6px rgba(8, 20, 30, 0.52);
+ -moz-box-shadow: 22px 11px 19px 6px rgba(8, 20, 30, 0.52);
+ box-shadow: 22px 11px 19px 6px rgba(8, 20, 30, 0.52);
  }
 
-
+.basis_men{
+  margin-top: 150px;
+  width: 1600px;
+  height: 186px; 
+  text-align: center;
+}
 
  .basis_min_tu{
    font-size:70px; 
-   color:rgb(117, 18, 18);
+   color:rgb(82, 88, 145);
  }
  
 
 .basis_min_tfree{
    font-size:70px; 
-   color:rgb(117, 18, 18);
-   animation: tfree 2s infinite;
+   color:rgb(43, 22, 231);
+   animation: tfree 3s infinite;
   
  }
 
@@ -189,34 +199,50 @@ margin: 0px;
 
  /*photo*/
 
- .command{
-   width: 1300px;
-   height: 100px;   
-   text-align: center;
-   font-size: 25px;
-   font-family: 'Roboto';
-   background: #F5F4FA;
-   margin-left: 150px;
+
+
+ .command_text{
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
  }
 
+
+
+
+ /*command*/
 
 .command_photo{
-   width: 1300px;
-   height: 480px;
-  background: #F5F4FA;
-  margin-left: 150px;
- 
+   width: 1500px;
+   height: 800px;
+   background: rgba(245, 244, 250, 1);
+   padding-top: 55px;
+   padding-left: 85px;
+  
+
 }
  .Photo_one{
-   width:200px;
-   height: 400px;
+   width: 250px;
+   height: 450px;
    display: inline-block;
-   padding-top: 15px;
-   padding-left:45px;
-   margin-left: 55px;
-   background-color: rgb(240, 230, 230);
+   padding-top: 95px;
+   padding: 25px;
+   margin: 25px;
+   background-color: rgb(255, 255, 255);
+   border-radius: 5px;
+   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
  }
 
+ 
  
 .social_list{
 display: flex;
@@ -250,10 +276,14 @@ display: flex;
 }
 
 .social-aicon{
-fill: rgba(175, 177, 184, 1);
+ fill: rgba(175, 177, 184, 1);
  margin-left: 4px;
  margin-top: 3px;
 }
+
+
+
+
 
 
 
