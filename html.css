@@ -83,10 +83,10 @@ position: relative;
     position: absolute;
     color:rgba(17, 3, 3, 0.568);
     text-align: center;
-    width: 696px;
-    height: 120px;
-    left: 450px;
-    top: 195px;
+    width: 996px;
+    height: 150px;
+    left: 270px;
+    top: 200px;
     border-radius: 14px;
   background-color: rgba(49, 4, 248, 0.185);
   -webkit-box-shadow: 22px 11px 19px 6px rgba(8, 20, 30, 0.52);
@@ -94,7 +94,7 @@ position: relative;
   box-shadow: 22px 11px 19px 6px rgba(8, 20, 30, 0.52);
  }
 .basis_main_size{
-  font-size: 50px;
+  font-size: 70px;
   color: rgb(255, 251, 251);
   
 }
@@ -432,7 +432,7 @@ display: flex;
 .sheet_hat{
   padding-top: 5px;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Roboto';
  font-style: normal;
  font-weight: 700;
@@ -449,7 +449,7 @@ display: flex;
 .basement-end-hat{
   color: white;
   margin-left: 150px;
-  font-size: 35px;
+  font-size: 25px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
