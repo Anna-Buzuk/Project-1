@@ -159,13 +159,11 @@ margin: 0px;
   font-weight: bolder;
 }
 
- .basis_min{
-   ow: 22px 11px 19px 6px rgba(8, 20, 30, 0.52);
- }
+ 
 
 .basis_men{
   width: 1600px;
-  height: 600px;
+  height: 500px;
   background-color: rgba(73, 71, 66, 0.13);
   padding-top: 50px;
   margin-top: 150px;
@@ -175,26 +173,34 @@ margin: 0px;
  .basis_min_tu{
   text-align: center;
   font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
  
 
 .basis_min_tfree{
  display: inline-block;  
-  margin: 55px;
+  margin-left: 45px;
+  margin-right: 55px;
  }
 
  .basis_max_cont{
+   margin-left: 100px;
    font-size: 45px;
    color: #507922;
  }
  
  .basis_max_big{
    font-size: 30px;
+   margin-left: 35px;
+   margin-right: 65px;
  }
 
 .basis_max_min{
 font-size: 22px;
 color: #757575;
+margin-left: 25px;
+margin-right: 35px;
+
 }
 
 /*Robimy*/
@@ -203,12 +209,15 @@ color: #757575;
   width: 1600px;
   height: 900px;
   background-color: rgba(73, 71, 66, 0.13);
+  list-style: none;
 }
+
 
 .row_basis{
   padding-top: 150px;
   text-align: center;
   font-size: 45px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container_row{
@@ -261,8 +270,8 @@ color: #757575;
 
 
 .row_linkcol{
-width: 60px;
-height: 60px;
+width: 100px;
+height: 100px;
  margin-left: 18px;
  margin-top: 15px;
 
