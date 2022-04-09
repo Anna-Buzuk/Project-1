@@ -129,72 +129,29 @@ margin: 0px;
   margin-left: 750px;
 }
 
-.basis_one{
-  position: relative;
-  
-}
+ .basic-properties{
+   position: relative; 
+ }
 
- .basis_big{
+ .main-properties-part{
   position: absolute;
-  top: -520px;
-  display: inline-block;
-  margin-left: 65px;
-   
+  width: 700px;
+  height: 350px;
+  top: -500px;
+  left: 55px;
  }
 
- .basis_big_tu{
-  position: absolute;
-  top:-350px;
+ .main-properties-name{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 30px;
+
  }
 
- .basis_big_here{
-  position: absolute;
-  top:-190px;
- }
- 
- .basis_big_one{
-   font-size: 25px;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   font-style: normal;
-   font-weight: 400;
- }
- .basis_big_one_tu{
-  font-size: 25px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  margin-left: 65px;
- }
-
- .basis_big_here_tu{
-  font-size: 25px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  margin-left: 65px;
- }
- .basis_big_free_tu{
+.main-properties-middle{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 25px;
   font-size: 20px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin-left: 65px;
- }
-
-
- .basis_big_few{
-   font-size: 20px;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- }
-
-.basis_big_free{
-  color: black;
-  font-size: 20px;
-  font-weight: bolder;
 }
-
- 
-
-
-
 
 
 
