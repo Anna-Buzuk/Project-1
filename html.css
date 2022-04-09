@@ -9,7 +9,6 @@ li {
 .upper{
     width: 1600px;
     height: 100px;
-    background-color: rgba(11, 30, 94, 0.082);
     margin-bottom: -9px; 
 }
 
@@ -123,38 +122,67 @@ margin: 0px;
 
 }
 
+/* formalnosci*/
+
+.formalities{
+  margin-top: 110px;
+  margin-left: 750px;
+}
+
 .basis_one{
   position: relative;
-  width: 1600px;
-  height: 80px;
+  
 }
 
  .basis_big{
-   position: absolute;
-   display: inline-block;
-   margin-left: 15px;
- }
- .basis_big_q{
   position: absolute;
-  left: 500px;
-  margin-left: 15px;
+  top: -520px;
+  display: inline-block;
+  margin-left: 65px;
+   
  }
 
- .basis_big_w{
+ .basis_big_tu{
   position: absolute;
-  left: 1055px;
-  margin-left: 15px;
+  top:-350px;
+ }
+
+ .basis_big_here{
+  position: absolute;
+  top:-190px;
  }
  
  .basis_big_one{
-   font-size: 17px;
+   font-size: 25px;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    font-style: normal;
    font-weight: 400;
-   line-height: 24px;
-   letter-spacing: 0.03em;
-   text-align: left;
-   font-weight: bolder;
+ }
+ .basis_big_one_tu{
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 65px;
+ }
+
+ .basis_big_here_tu{
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 65px;
+ }
+ .basis_big_free_tu{
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 65px;
+ }
+
+
+ .basis_big_few{
+   font-size: 20px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
 
 .basis_big_free{
@@ -164,6 +192,13 @@ margin: 0px;
 }
 
  
+
+
+
+
+
+
+
 
 .basis_men{
   width: 1600px;
