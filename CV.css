@@ -1,0 +1,50 @@
+li {
+    list-style-type: none; 
+   }
+
+.big{
+    position: relative;
+}
+.bos{
+    position: absolute;
+    top: -16px;
+    left: 0;
+    width: 1600px;
+    height: 80px;
+    background-color: rgba(215, 224, 224, 0.404);
+}
+
+.bos-min{
+   position: absolute; 
+   top: 125px;
+   left: 100px;
+   color: white;
+   font-size: 40px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.part-new{
+  width: 1600px;
+  height: 80px;
+}
+
+.part-new-big{
+    display: inline-block; 
+    margin-left: 55px; 
+    padding-right: 80px;
+}
+
+
+.part-new-max{
+    
+}
+
+
+.part-new-min{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.part-new-min:hover{
+    color: black;
+}

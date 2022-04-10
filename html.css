@@ -52,7 +52,7 @@ position: relative;
 }
 
 .upper_lists:hover{
-   color: rgb(75, 75, 75);
+  color: rgb(10, 156, 253);
 }
 
 .upper_list::after{
