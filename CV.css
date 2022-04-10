@@ -35,11 +35,6 @@ li {
 }
 
 
-.part-new-max{
-    
-}
-
-
 .part-new-min{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -59,7 +54,8 @@ li {
 .for-max{
     position: absolute;
     top: 300px;
-    left: 20%;
+    left: 15%;
+
 }
 
 .for-max input{
@@ -67,7 +63,7 @@ li {
     margin-right: 5px;
     padding: 10px 20px;
     border-radius:  15px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgba(7, 7, 7, 0.253);
     font-size: 15px;
 }
 
@@ -82,7 +78,7 @@ li {
 }
 
 .form-inp{
-    
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
  width: 850px;
  margin-top: 10px;
  font: inherit;
@@ -90,6 +86,7 @@ li {
 }
 
 .form-lab{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 position: absolute;
 top: 50%;
 left: 30px;
@@ -98,11 +95,29 @@ transition: 250ms linear;
 margin-top: 5px;
 font-weight: bold;
 font-size: 20px;
+border: 1px solid #ccc transparent;
+color: rgba(95, 95, 102, 0.842);
 }
 
 .form-inp:focus + .form-lab,
  .form-inp:not(:placeholder-shown) + .form-lab
   {
    transform: translateY(-50px);
-   color: rgb(0, 0, 2);
+   color: rgba(95, 95, 102, 0.842);
+ }
+
+ .form-butt{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-top: 45px;
+     margin-left: 375PX;
+     width: 160px;
+     height: 40px;
+     border: 0px solid rgba(7, 7, 7, 0.253);
+     border-radius: 4px;
+     font-size: 25px;
+     background:linear-gradient(to right, rgb(201, 200, 202), rgb(190, 187, 228)) ;
+ }
+
+ .form-butt:hover{
+    background:linear-gradient(to right, rgb(113, 158, 160), rgb(190, 187, 228)) ;
  }
