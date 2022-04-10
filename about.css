@@ -66,7 +66,7 @@ li {
 .big_info_one{
   position: absolute;
   top: 0px;
-  left: 50px;
+  left: 40px;
   margin: 50px;
   display: inline-block;
 }
@@ -95,7 +95,7 @@ li {
 
 .info_square_three{
   position: absolute;
-  top: 50px ;
+  top: 50px;
   left: 1060px;
   margin-right: 50px;
   display: inline-block;
@@ -148,15 +148,15 @@ li {
 
  .info_square_four{
    position: absolute;
-   top: 150px;
-  left: 50px;
+   top: 20px;
+   left: 90px;
    display: inline-block;
   margin-right: 50px;
      }
      
   .info_square_five{
     position: absolute;
-    top: 150px;
+    top: 20px;
     left: 580px;
     display: inline-block;
     margin-right: 50px;
@@ -164,33 +164,37 @@ li {
 
 .info_square_six{
   position: absolute;
-   top: 150px;
-  left: 1080px;
+   top: 20px;
+  left: 1060px;
   border-radius: 20px;
   display: inline-block;
   }
 
 .info_square_seven{
+  position: absolute;
+  top: -220px ;
+  left: -9px;
   display: inline-block;
   margin-right: 50px;
 }
 
 .info_square_eight{
+  position: absolute;
+  top: -220px;
+  left: 480px;
   display: inline-block;
   margin-right: 50px;
  }
 
 .info_square_nine{
+  position: absolute;
+  top: -220px ;
+  left: 960px ;
   margin-right: 50px;
   display: inline-block;  
 }
 
-     
- sheet{
- display: inline-block;
-margin-left: 100px;
-margin-right: 55px;
-}
+ 
 
 
 
@@ -201,58 +205,3 @@ margin-right: 55px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-.down_part{
-
-
-}
-
-
-
-
-
-.info_square_one:hover .masters-top-text{
-   transform: translateY(0);
-}
-
-
-
-
-
-.sheet{
-  display: inline-block;
-  color: antiquewhite;
-}
-
-textarea {
- resize: none;
-}
-
-.size-foot{
-width: 1600px;
-height: 200px;
-background: rgba(47, 48, 58, 1);
-
-}
-
-.basement-hat{
-display: inline-block;
-}
-
-
-.basement-end{
-display: inline-block;
-}
-
-.middle-end{
-display: inline-block;
-}
