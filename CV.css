@@ -121,3 +121,29 @@ color: rgba(95, 95, 102, 0.842);
  .form-butt:hover{
     background:linear-gradient(to right, rgb(113, 158, 160), rgb(190, 187, 228)) ;
  }
+
+ /*footer*/
+
+ .basement{
+     position: relative;
+
+ }
+
+ .basement-main{
+     position: absolute;
+     background: rgba(47, 48, 58, 1);
+     top: 900px;
+     height: 250px;
+     width: 1600px;
+ }
+
+ .basement-max{
+    display: inline-block; 
+    color: white;
+    text-decoration: none; 
+    padding-left: 10px;
+    padding-right: 50px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+ }

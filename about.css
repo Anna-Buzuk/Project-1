@@ -1,110 +1,232 @@
+li {
+  list-style-type: none; 
+ }
+
+/*header*/
+
+.upper-big{
+  width: 1600px;
+  height: 80px; 
+  margin-bottom: -50px; 
+}
+
+
+.upper_max{
+  display: inline-block;
+  margin-left: 20px;
+  padding-top: 15px;
+  font-family: 'Roboto';
+  font-style: normal;
+  margin-left: 155px;
+  position: relative;
+  
+}
+
+.upper_max::after{
+  content: "";
+    width: 100%;
+    height: 5px;
+    display: block;
+    background-color: rgb(3, 0, 197);
+    border-radius: 10px;
+    position: absolute;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scaleX(0);
+}
+
+.upper_max:hover::after{
+  transform: scaleX(1);
+}
+
+.upper_min {
+  text-decoration: none;
+  color: black ;
+  font-weight: 700;
+   font-size: 25px;
+ }
+
+ .upper_min:hover{
+  color: rgb(10, 156, 253);
+ }
 
 
 
+/*main*/
+.boss{
+  width: 1600px;
+  height: 500px;
+}
+
+.big_bos_max{
+  position: relative;
+  
+}
      
 
-     .big_info_one,.big_info_two,.big_info_three {
-       margin: 50px;
-       display: inline-block;
-     }
-     
-     
+.big_info_one{
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  margin: 50px;
+  display: inline-block;
+}
 
+.inscription-above{
+  padding-top: 20px;
+  text-align: center;
+  background-color: rgba(119, 114, 114, 0.123);
+  width: 400px;
+  height: 50px;
+  border-radius: 20px;
+ }
 
-     .info_square_one{
-        display: inline-block;
-        margin-right: 50px;
-     }
+ .info_square_one{
+  display: inline-block;
+  margin-right: 50px;
+  }
 
-     .info_square_two{
-        display: inline-block;
-        margin-right: 50px;
-     }
+.info_square_two{
+  position: absolute;
+  top: 50px;
+  left: 580px;
+  display: inline-block;
+  margin-right: 50px;
+}
 
-     .info_square_three{
-      margin-right: 50px;
-       display: inline-block;
-     }
+.info_square_three{
+  position: absolute;
+  top: 50px ;
+  left: 1060px;
+  margin-right: 50px;
+  display: inline-block;
+ }
 
-     .info_square_four{
-       display: inline-block;
-       margin-right: 50px;
-     }
-     
-     .info_square_five{
-       display: inline-block;
-       margin-right: 50px;
-     }
+ .big_info_three {
+   position: absolute;
+   top: 550px ;
+   left: 50px;
+  margin: 50px;
+  display: inline-block;
+ }
 
-     .info_square_six{
-       border-radius: 20px;
-       display: inline-block;
-     }
+ .masters-item-wrap{
+  position: relative;
+  overflow: hidden;
+  }
 
-     .info_square_seven{
-       display: inline-block;
-       margin-right: 50px;
-     }
-
-     .info_square_eight{
-       display: inline-block;
-       margin-right: 50px;
-     }
-
-     .info_square_nine{
-      margin-right: 50px;
-      display: inline-block;  
+  .masters-top-text{
+    position: absolute;
+    height: 100%;
+    top: -40px;
+    left: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 40px 30px;
+    color:white;
+    background-color: rgba(15, 48, 110, 0.897);
+    transform: translateY(100%);
+    transition: transform 300ms;
+    overflow: scroll;
+    text-align: center;
    }
 
-     
- .sheet{
+
+  .big_info_two {
+   margin: 50px;
    display: inline-block;
-  margin-left: 100px;
-  margin-right: 55px;
+  }
+     
+ 
+  .inscription-above{
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgba(119, 114, 114, 0.123);
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+   }
+
+ .info_square_four{
+   position: absolute;
+   top: 150px;
+  left: 50px;
+   display: inline-block;
+  margin-right: 50px;
+     }
+     
+  .info_square_five{
+    position: absolute;
+    top: 150px;
+    left: 580px;
+    display: inline-block;
+    margin-right: 50px;
+  }
+
+.info_square_six{
+  position: absolute;
+   top: 150px;
+  left: 1080px;
+  border-radius: 20px;
+  display: inline-block;
+  }
+
+.info_square_seven{
+  display: inline-block;
+  margin-right: 50px;
 }
+
+.info_square_eight{
+  display: inline-block;
+  margin-right: 50px;
+ }
+
+.info_square_nine{
+  margin-right: 50px;
+  display: inline-block;  
+}
+
+     
+ sheet{
+ display: inline-block;
+margin-left: 100px;
+margin-right: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .down_part{
 
 
 }
 
-.masters-top-text{
- position: absolute;
- height: 100%;
- top: -40px;
- left: 0;
- font-size: 18px;
- line-height: 1.5;
- padding: 40px 30px;
- color:white;
- background-color: rgba(15, 48, 110, 0.897);
- transform: translateY(100%);
- transition: transform 300ms;
- overflow: scroll;
- text-align: center;
-}
 
-.masters-item-wrap{
-position: relative;
-overflow: hidden;
-}
+
+
 
 .info_square_one:hover .masters-top-text{
    transform: translateY(0);
 }
 
-.item-photo{
- 
-}
 
-.inscription-above{
- padding-top: 20px;
- text-align: center;
- background-color: rgb(233, 214, 214);
- width: 400px;
- height: 50px;
- border-radius: 15px;
-}
+
+
 
 .sheet{
   display: inline-block;
