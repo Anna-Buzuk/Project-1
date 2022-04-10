@@ -198,6 +198,16 @@ li {
 
 
 
+/*footer*/
+
+
+
+.info_square_one:hover .masters-top-text{
+   transform: translateY(0);
+}
+textarea {
+ resize: none;
+}
 
 
 
