@@ -324,7 +324,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 .container_row{
   align-content: center;
-  display: inline-block;
+   display: inline-block;
 }
 
 
@@ -369,7 +369,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .row_min_send{
   width: 300px;
   height: 80px;
-  text-align: center;
+ 
   padding-top : 15px;
   padding-left: 15px;
   padding-right: 15px;
@@ -624,7 +624,7 @@ display: flex;
 .modal{
  width: 550px;
  min-height: 600px;
- background-color: rgba(4, 7, 46, 0.705);
+ background-color: rgba(147, 148, 170, 0.37);
  border-radius: 5px;
  box-shadow: 6px 5px 5px 6px rgb(255, 255, 255);
  box-shadow: 8px 5px 5px 8px rgb(250, 250, 250);
