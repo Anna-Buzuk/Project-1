@@ -6,6 +6,12 @@ li {
    }
 
 /*header*/
+
+header{
+  flex-direction: column;
+}
+
+
 .upper{
     width: 1600px;
     height: 100px;
@@ -13,8 +19,9 @@ li {
 
 }@media only screen and (max-width: 1200px) {
   .upper{
-    width: 1100px;
+    width: 1199px;
     height: 100px;
+    flex-direction: column;
   } 
 }
 
@@ -119,6 +126,46 @@ position: relative;
      width: 1600px;
      height: 600px;
 }
+
+
+@media only screen and (max-width: 1200px) {
+  .basis,.basis_mein,.basis_main_size,.basis_job{
+    width: 90%;
+    height: 90%;
+    
+  } 
+}
+
+
+@media only screen and (max-width: 992px) {
+  .basis,.basis_mein,.basis_main_size,.basis_job{
+    width: 60%;
+    height: 60%;
+  }  
+}
+
+
+@media only screen and (max-width: 768px) {
+  .basis,.basis_mein,.basis_main_size,.basis_job{
+    width: 60%;
+    height: 60%;
+  }  
+}
+
+@media only screen and (max-width: 480px) {
+  .basis,.basis_mein,.basis_main_size,.basis_job{
+    width: 60%;
+    height: 60%;
+  }  
+}
+
+@media only screen and (max-width: 320px) {
+  .basis,.basis_mein,.basis_main_size,.basis_job{
+    width: 30%;
+    height: 30%;
+  }  
+}
+
  .basis_mein{
     position: absolute;
     color:rgba(17, 3, 3, 0.568);
@@ -133,6 +180,8 @@ position: relative;
     -moz-box-shadow: 22px 11px 19px 6px rgba(8, 20, 30, 0.52);
     box-shadow: 22px 11px 19px 6px rgba(8, 20, 30, 0.52);
  }
+
+ 
 .basis_main_size{
   font-size: 60px;
   color: rgb(255, 251, 251)
