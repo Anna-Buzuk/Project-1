@@ -518,7 +518,7 @@ display: flex;
 
  .size-foot{
   width: 1604px;
-  height: 300px;
+  height: 290px;
   background: rgba(47, 48, 58, 1);
   margin-top: 75px;
   
@@ -545,8 +545,8 @@ display: flex;
 
 
 .basement-end{
-  margin-top: -205px;
-  margin-left: 250px;
+  margin-top: -185px;
+  margin-left: 290px;
 }
 
 
@@ -565,6 +565,11 @@ display: flex;
   margin-top: -59px;
   margin-left: 990px;
 }
+
+.form-input{
+  
+}
+
 
 
  /*forma*/
