@@ -1216,30 +1216,68 @@ margin-left: 0px;
 
 
 @media only screen and (max-width: 768px) {
-  .basis,.basis_job{
-    width: 60%;
-    height: 40%;
-    margin:20px;
-  }  
-  .basis_mein{
-    height: 50px;
-    width: 100px;
-    margin-left: -80px;
+  
+  .upper_list{
+    margin-left: 30px;
+    padding-right: 10px;
+  
+  } 
+
+  .upper_lists{
+    font-size: 21px;
   }
+
+  .basis_mein{
+    width: 500px;
+    height: 100px;
+    margin-left: -50px;
+  }
+
+  .basis_main_size{
+  font-size: 35px;
+  margin-top: 30px;
+  }
+
+
+  .basis_job{
+    width: 180px;
+    top: 290px;
+    left: 380px;
+  }
+
+  .basis_job_col{
+    font-size: 23px;
+  }
+
 }
 
+
+
+
 @media only screen and (max-width: 480px) {
-  .basis,.basis_job{
-    width: 70%;
-    height: 50%;
-    margin:20px;
-  }  
-  .basis_mein{
-    height: 50px;
-    width: 100px;
-    margin-left: -80px;
+  .upper_list{
+    margin-left: 30px;
+   margin-right: 15px;
   }
+
+  .upper_lists{
+  font-size: 18px;
+  }
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 320px) {
   .basis,.basis_job{
