@@ -28,7 +28,7 @@ header{
 
 @media only screen and (max-width: 992px) {
   .upper{
-    width: 950px;
+    width: 900px;
     height: 100px;
   }  
 }
@@ -1037,28 +1037,182 @@ margin-left: 150px;
 .middle-end{
 margin-left: 700px;
 }
-
-
-
-
-
  }
 
 
 
 
 @media only screen and (max-width: 992px) {
-  .basis,.basis_job{
-    width: 30%;
-    height: 30%;
-    margin:20px;
-  }  
-  .basis_mein{
-    height: 250px;
-    width: 990px;
-    margin-left: -80px;
+
+  .upper_list{
+    margin-left: 20px;
+    padding-right: 35px;
   }
+
+  .a{
+   margin-left: 5px;
+  }
+
+  .upper_list::after{
+    width: 90%;
+  }
+
+  .size_ph{
+    width: 900px;
+  }
+
+.basis_mein{
+  width: 500px;
+  height: 140px;
+  margin-left: -50px;
 }
+
+.basis_job{
+  width: 200px;
+  top: 320px;
+  left: 380px;
+}
+
+.formalities_photo{
+width: 400px;
+}
+
+.main-properties-name{
+  font-size: 19px;
+  margin-top: 70px;
+}
+
+.main-properties-middle{
+  font-size: 15px;
+}
+
+.basis_men{
+  width: 900px;
+  height: 300px;
+}
+
+.basis_min_tu{
+  font-size: 30px;
+}
+
+.basis_max_cont{
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: -25px;
+}
+
+.basis_min_big{
+  font-size: 20px;
+  margin-left: -80px;
+  margin-right: 30px;
+}
+
+
+.basis_cont_max{
+  font-size: 16px;
+  margin-left: -40px;
+  margin-right: 50px;
+}
+
+.to_find{
+  width: 900px;
+}
+
+.to_find_bos{
+  font-size: 30px;
+}
+
+.conditions_bos{
+  left: 480px;
+  top: 1830px;
+}
+
+.conditions_min,.conditions_min_tu,.conditions_min_free{
+  font-size: 16px;
+ font-weight: bold;
+}
+
+
+.basis_container{
+  width: 900px;
+
+}
+
+
+.row_basis{
+  font-size: 35px;
+}
+
+.row_link{
+  width: 80px;
+  height: 80px;
+  margin-left: 45px;
+  margin-right: 155px;
+}
+
+.container_row_big{
+
+  font-size: 20px;
+  margin-left: 48px;
+  padding-right: 8px;
+  align-content: center;
+
+}
+
+.container_row_min{
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+.row_min_send{
+  width: 200px;
+  font-size: 15px;
+}
+
+.command_photo{
+  width: 815px;
+  height: 700px;
+  margin-left: 20px;
+}
+
+.command_text{
+  font-size: 40px;
+}
+.Photo_one{
+  width: 140px;
+  height: 250px;
+  margin-left: -45px;
+ margin-right: 50px;
+}
+
+.Photo_one_size{
+  width: 150px;
+  height: 150px;
+}
+
+.size-foot{
+  width: 900px;
+}
+
+.basement-end-hat{
+margin-left: 0px;
+}
+
+.end{
+  margin-left: 280px;
+}
+
+
+.middle-end{
+  margin-left: 550px;
+  margin-top: -75px;
+}
+
+}
+
+
+
+
 
 
 @media only screen and (max-width: 768px) {
