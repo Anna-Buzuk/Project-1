@@ -123,77 +123,18 @@ position: relative;
 /*main*/
  .basis{
      background-color: rgba(255, 255, 255, 0.863);
+     width:1600px; 
+     height:600px; 
+}
+
+.size_ph{
+  width:1600px; 
+  height:600px;
 }
 
 
-@media only screen and (max-width: 1200px) {
-  .basis,.basis_job{
-    width: 40%;
-    height: 30%;
-    margin:20px;
-   
-    
-  } 
-  .basis_mein{
-    height: 50px;
-    width: 100px;
-    margin-left: -80px;
-  }
-}
 
 
-@media only screen and (max-width: 992px) {
-  .basis,.basis_job{
-    width: 30%;
-    height: 30%;
-    margin:20px;
-  }  
-  .basis_mein{
-    height: 50px;
-    width: 100px;
-    margin-left: -80px;
-  }
-}
-
-
-@media only screen and (max-width: 768px) {
-  .basis,.basis_job{
-    width: 60%;
-    height: 40%;
-    margin:20px;
-  }  
-  .basis_mein{
-    height: 50px;
-    width: 100px;
-    margin-left: -80px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .basis,.basis_job{
-    width: 70%;
-    height: 50%;
-    margin:20px;
-  }  
-  .basis_mein{
-    height: 50px;
-    width: 100px;
-    margin-left: -80px;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .basis,.basis_job{
-    width: 20%;
-    height: 20%;
-    margin:20px;
-  }  
-  .basis_mein{
-    height: 50px;
-    width: 100px;
-    margin-left: -90px;
-  }
-}
 
  .basis_mein{
     position: absolute;
@@ -863,4 +804,127 @@ display: flex;
    pointer-events: none;
  }
  
+ @media only screen and (max-width: 1200px) {
+  
+
+  .upper_list_job{
+    margin-top: 50px;
+  }
+
+
+  .logo_upper{
+    display: none;
+  }
+
+  .upper_list{
+    margin-left: 75px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+
+  .size_ph{
+    height: 350px;
+    width: 1200px;
+    margin-left: 5px;
+  }
+
+
+  .basis{
+    width: 40%;
+    height: 30%;
+    margin:20px;
+   
+    
+  } 
+
+  
+  .basis_mein{
+    width: 700px;
+    height: 100px;
+    margin-left: auto;
+    margin-top: -35px;
+  }
+
+  .basis_main_size{
+  font-size: 45px;
+  margin-top: 20px;
+  }
+
+ .basis_job{
+  top:300px;
+  left:460px;
+ }
+
+ .formalities{
+ margin-top: 40px;
+ }
+
  
+ 
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+  .basis,.basis_job{
+    width: 30%;
+    height: 30%;
+    margin:20px;
+  }  
+  .basis_mein{
+    height: 250px;
+    width: 990px;
+    margin-left: -80px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .basis,.basis_job{
+    width: 60%;
+    height: 40%;
+    margin:20px;
+  }  
+  .basis_mein{
+    height: 50px;
+    width: 100px;
+    margin-left: -80px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .basis,.basis_job{
+    width: 70%;
+    height: 50%;
+    margin:20px;
+  }  
+  .basis_mein{
+    height: 50px;
+    width: 100px;
+    margin-left: -80px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .basis,.basis_job{
+    width: 20%;
+    height: 20%;
+    margin:20px;
+  }  
+  .basis_mein{
+    height: 50px;
+    width: 100px;
+    margin-left: -90px;
+  }
+}
+
+
+
