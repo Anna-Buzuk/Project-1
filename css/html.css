@@ -122,53 +122,77 @@ position: relative;
 
 /*main*/
  .basis{
-     background-color: rgba(84, 83, 95, 0.863);
-     width: 1600px;
-     height: 600px;
+     background-color: rgba(255, 255, 255, 0.863);
 }
 
 
 @media only screen and (max-width: 1200px) {
-  .basis,.basis_mein,.basis_main_size,.basis_job{
-    width: 100%;
-    height: 100%;
+  .basis,.basis_job{
+    width: 40%;
+    height: 30%;
     margin:20px;
+   
     
   } 
+  .basis_mein{
+    height: 50px;
+    width: 100px;
+    margin-left: -80px;
+  }
 }
 
 
 @media only screen and (max-width: 992px) {
-  .basis,.basis_mein,.basis_main_size,.basis_job{
-    width: 100%;
-    height: 100%;
+  .basis,.basis_job{
+    width: 30%;
+    height: 30%;
     margin:20px;
   }  
+  .basis_mein{
+    height: 50px;
+    width: 100px;
+    margin-left: -80px;
+  }
 }
 
 
 @media only screen and (max-width: 768px) {
-  .basis,.basis_mein,.basis_main_size,.basis_job{
-    width: 100%;
-    height: 100%;
+  .basis,.basis_job{
+    width: 60%;
+    height: 40%;
     margin:20px;
   }  
+  .basis_mein{
+    height: 50px;
+    width: 100px;
+    margin-left: -80px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
-  .basis,.basis_mein,.basis_main_size,.basis_job{
-    width: 100%;
-    height: 100%;
+  .basis,.basis_job{
+    width: 70%;
+    height: 50%;
     margin:20px;
   }  
+  .basis_mein{
+    height: 50px;
+    width: 100px;
+    margin-left: -80px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
-  .basis,.basis_mein,.basis_main_size,.basis_job{
-    width: 100%;
-    height: 100%;
+  .basis,.basis_job{
+    width: 20%;
+    height: 20%;
     margin:20px;
   }  
+  .basis_mein{
+    height: 50px;
+    width: 100px;
+    margin-left: -90px;
+  }
 }
 
  .basis_mein{
