@@ -1271,25 +1271,106 @@ margin-left: 0px;
 
 
 
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 320px) {
-  .basis,.basis_job{
-    width: 20%;
-    height: 20%;
-    margin:20px;
-  }  
-  .basis_mein{
-    height: 50px;
-    width: 100px;
-    margin-left: -90px;
-  }
+  .upper{
+    width: 280px;
+    height: 100px;
+ }
+
+ .upper_list{
+  margin-left: px;
+  margin-right: 8px;
+ }
+ 
+ .upper_lists{
+   font-size: 8px;
+ }
+
+ .size_ph{
+  display: none;
+ }
+
+ .basis_mein{
+  width: 250px;
+  height: 80px;
+  margin-left: -210px;
+  margin-top: -80px;
+  background: linear-gradient(to right, rgba(206, 19, 122, 0.692), rgba(132, 107, 241, 0.822));
+ }
+
+
+ .basis_main_size{
+   font-size: 20px;
+ }
+
+ .basis_job{
+  width: 120px;
+  height: 80px;
+  top: 220px;
+  left: 120px;
+  background: linear-gradient(to right, rgba(206, 19, 122, 0.692), rgba(132, 107, 241, 0.822));
+ }
+
+
+ .basis_job_col{
+   font-size: 15px;
+ }
+
+
+
+
+ .formalities{
+   margin-top: 470px;
+ }
+
+
+ .formalities_photo{
+   display: none;
+ }
+
+
+ .main-properties-name{
+   font-size: 10px;
+ }
+
+ .main-properties-middle{
+  font-size: 8px;
+ }
+
+ .basis_men{
+  width: 250px;
+  margin-left: 55px;
+ }
+
+ .basis_min_tu{
+   font-size: 10px;
+ }
+
+ .basis_max_cont{
+   font-size: 15px;
+   margin-left: -45px;
+ }
+
+ .basis_min_big{
+   font-size: 8px;
+ }
+
+ .basis_mimmax_cont{
+  width: 250px;
+  font-size: 8px;
+  margin-left: 50px;
+  text-align: center;
+ }
+
+ .basis_cont_max{
+   font-size: 8px;
+ }
+
+ .beginning_cont{
+   display: none;
+ }
+
+
 }
 
 
