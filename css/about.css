@@ -2,6 +2,15 @@ li {
   list-style-type: none; 
  }
 
+
+ body{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  background: #eee; 
+}
+
+
 /*header*/
 
 .upper-big{

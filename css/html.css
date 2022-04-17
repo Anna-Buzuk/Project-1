@@ -1,70 +1,34 @@
 
-
-
 li {
     list-style-type: none; 
    }
 
+   body{
+     margin-left: auto;
+     margin-right: auto;
+     width: 1600px;
+     background: #eee; 
+   }
+
 /*header*/
 
-header{
-  flex-direction: column;
-}
 
 
 .upper{
     width: 1600px;
     height: 100px;
-    margin-bottom: -9px; 
+    padding-bottom: 13px; 
 
-}@media only screen and (max-width: 1200px) {
-  .upper{
-    width: 1199px;
-    height: 100px;
-    flex-direction: column;
-  } 
 }
-
-
-@media only screen and (max-width: 992px) {
-  .upper{
-    width: 900px;
-    height: 100px;
-  }  
-}
-
-
-@media only screen and (max-width: 768px) {
-  .upper{
-    width: 750px;
-    height: 100px;
-  }  
-}
-
-@media only screen and (max-width: 480px) {
-  .upper{
-    width: 470px;
-    height: 100px;
-  }  
-}
-
-@media only screen and (max-width: 320px) {
-  .upper{
-    width: 370px;
-    height: 100px;
-  }  
-}
-
 
 
 .upper_list_job{
-  display: inline-block;
   padding-left: 20px;
   padding-top: 5px;
 }
 
-.a{
-  margin-top: -60px;
+.head_house{
+  margin-top: -40px;
   
 }
 
@@ -74,7 +38,6 @@ display: inline-block;
 font-family: 'Roboto';
 font-style: normal;
 margin-left: 155px;
-position: relative;
 }  
  
 .color-list{
@@ -109,7 +72,6 @@ position: relative;
   display: block;
   background-color: rgb(3, 0, 197);
   border-radius: 10px;
-  position: absolute;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: scaleX(0);
 }
@@ -119,13 +81,61 @@ position: relative;
 }
 
 
+.logo_upper{
 
+}
 
 
 
 
 
 /*main*/
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:Khula;
+  font-size:7em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:-350px;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+  display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+  color: rgb(247, 247, 248);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  .basis{
      background-color: rgba(255, 255, 255, 0.863);
      width:1600px; 
@@ -811,567 +821,4 @@ display: flex;
 
 
 
- /*media*/
  
- @media only screen and (max-width: 1200px) {
-  
-
-  .upper_list_job{
-    margin-top: 50px;
-  }
-
-
-  .logo_upper{
-    display: none;
-  }
-
-  .upper_list{
-    margin-left: 75px;
-    padding-right: 20px;
-    padding-bottom: 5px;
-    display: inline-block;
-  }
-
-  .size_ph{
-    height: 350px;
-    width: 1200px;
-    margin-left: 5px;
-  }
-
-
-  .basis{
-    width: 40%;
-    height: 30%;
-    margin:20px;
-   
-    
-  } 
-
-  
-  .basis_mein{
-    width: 700px;
-    height: 100px;
-    margin-left: auto;
-    margin-top: -35px;
-  }
-
-  .basis_main_size{
-  font-size: 45px;
-  margin-top: 20px;
-  }
-
- .basis_job{
-  top:300px;
-  left:460px;
- }
-
- .formalities{
- padding-top: 180px;
-
- }
-
- .formalities_photo{
-   
-   margin-left: -220px;
-   margin-top: -90px;
- }
-
- .main-properties-name{
-   font-size: 23px;
-   padding-bottom: 5px;
- }
- 
- .main-properties-middle{
-   font-size: 19px;
-   padding-bottom: 5px;
-   padding-top: 5px;
- }
-
- .basis_men{
-  width: 1190px;
-  margin: 20px;
- }
-
- .basis_min_tu{
-font-size: 40px;
-text-align: center;
- }
-
- .basis_min_tfree{
-   width: 95%;
-   
- }
-
-.basis_max_cont{
- margin: auto;
- padding-left: 60px;
- padding-right: 155px;
- font-size: 40px;
-}
-
-.basis_min_cont{
-  margin-left: -40px;
-  font-size: 20px;
-  padding-right: 10px;
-
-}
-
-.to_find_max{
-  margin-top: 50px;
-  width: 40%;
-}
-.to_find{
-  width: 1190px;
- height: 600px;
-  margin-left: 20px;
-}
-
-.to_find_bos{
-  font-size: 40px;
-}
-
-.сonditions_cont{
-  display: none;
-}
-
-.conditions_bos{
-  left: 700px;
-  top: 2080px;
-}
-
-.conditions_min,.conditions_min_tu,.conditions_min_free{
-  margin-top: -50px;
-  font-size: 30px;
- display: inline-block;
-}
-
-.basis_container{
-  width: 1199px;
-  height: 700px;
-  margin-left: 20px;
-}
-
-.row_basis{
-  font-size: 45px;
-}
-
-.row_link{
-  margin-left: 85px;
-  width: 100px;
-  height: 100px;
-}
-
-.row_linkcol{
-  display: none;
-}
-
-.container_row_big{
-font-size: 25px;
-margin-left: 85px;
-padding-right: 30px;
-align-content: center;
-}
-
-.container_row{
-  align-content: center;
-}
-
-.container_row_min{
-margin-left: 15px;
-margin-right: 10px;
-}
-
-
-.row_min_send{
-  width: 270px;
-  font-size: 20px;
-}
-
-.command_photo{
-  width: 1120px;
-  height: 700px;
-  margin-left: 20px;
-}
-
-.command_text{
-font-size: 50px;
-}
-
-.Photo_one{
-width: 190px;
-height: 260px;
-margin-left: -5px;
-}
-
-.Photo_one_size{
-  width: 200px;
-  height: 200px;
-}
-
-.photo_one_name{
-  font-size: 15px;
-}
-
-.photo_one_bos{
-  font-size: 15px;
-}
-
-.social_list,.social-item{
-  display: none;
-}
-
-
-.size-foot{
-width: 1199px;
-margin-left: 20px;
-}
-
-
-.basement-end{
-margin-left: 150px;
-}
-
-.end{
-  margin-left: 430px;
-}
-.middle-end{
-margin-left: 700px;
-}
- }
-
-
-
-
-@media only screen and (max-width: 992px) {
-
-  .upper_list{
-    margin-left: 20px;
-    padding-right: 35px;
-  }
-
-  .a{
-   margin-left: 5px;
-  }
-
-  .upper_list::after{
-    width: 90%;
-  }
-
-  .size_ph{
-    width: 900px;
-  }
-
-.basis_mein{
-  width: 500px;
-  height: 140px;
-  margin-left: -50px;
-}
-
-.basis_job{
-  width: 200px;
-  top: 320px;
-  left: 380px;
-}
-
-.formalities_photo{
-width: 400px;
-}
-
-.main-properties-name{
-  font-size: 19px;
-  margin-top: 70px;
-}
-
-.main-properties-middle{
-  font-size: 15px;
-}
-
-.basis_men{
-  width: 900px;
-  height: 300px;
-}
-
-.basis_min_tu{
-  font-size: 30px;
-}
-
-.basis_max_cont{
-  font-size: 25px;
-  font-weight: bold;
-  margin-left: -25px;
-}
-
-.basis_min_big{
-  font-size: 20px;
-  margin-left: -80px;
-  margin-right: 30px;
-}
-
-
-.basis_cont_max{
-  font-size: 16px;
-  margin-left: -40px;
-  margin-right: 50px;
-}
-
-.to_find{
-  width: 900px;
-}
-
-.to_find_bos{
-  font-size: 30px;
-}
-
-.conditions_bos{
-  left: 480px;
-  top: 1830px;
-}
-
-.conditions_min,.conditions_min_tu,.conditions_min_free{
-  font-size: 16px;
- font-weight: bold;
-}
-
-
-.basis_container{
-  width: 900px;
-
-}
-
-
-.row_basis{
-  font-size: 35px;
-}
-
-.row_link{
-  width: 80px;
-  height: 80px;
-  margin-left: 45px;
-  margin-right: 155px;
-}
-
-.container_row_big{
-
-  font-size: 20px;
-  margin-left: 48px;
-  padding-right: 8px;
-  align-content: center;
-
-}
-
-.container_row_min{
-  margin-left: 0px;
-  margin-right: 5px;
-}
-
-.row_min_send{
-  width: 200px;
-  font-size: 15px;
-}
-
-.command_photo{
-  width: 815px;
-  height: 700px;
-  margin-left: 20px;
-}
-
-.command_text{
-  font-size: 40px;
-}
-.Photo_one{
-  width: 140px;
-  height: 250px;
-  margin-left: -45px;
- margin-right: 50px;
-}
-
-.Photo_one_size{
-  width: 150px;
-  height: 150px;
-}
-
-.size-foot{
-  width: 900px;
-}
-
-.basement-end-hat{
-margin-left: 0px;
-}
-
-.end{
-  margin-left: 280px;
-}
-
-
-.middle-end{
-  margin-left: 550px;
-  margin-top: -75px;
-}
-
-}
-
-
-
-
-
-
-@media only screen and (max-width: 768px) {
-  
-  .upper_list{
-    margin-left: 30px;
-    padding-right: 10px;
-  
-  } 
-
-  .upper_lists{
-    font-size: 21px;
-  }
-
-  .basis_mein{
-    width: 500px;
-    height: 100px;
-    margin-left: -50px;
-  }
-
-  .basis_main_size{
-  font-size: 35px;
-  margin-top: 30px;
-  }
-
-
-  .basis_job{
-    width: 180px;
-    top: 290px;
-    left: 380px;
-  }
-
-  .basis_job_col{
-    font-size: 23px;
-  }
-
-}
-
-
-
-
-@media only screen and (max-width: 480px) {
-  .upper_list{
-    margin-left: 30px;
-   margin-right: 15px;
-  }
-
-  .upper_lists{
-  font-size: 18px;
-  }
-
-
-
-
-}
-
-
-
-@media only screen and (max-width: 320px) {
-  .upper{
-    width: 280px;
-    height: 100px;
- }
-
- .upper_list{
-  margin-left: px;
-  margin-right: 8px;
- }
- 
- .upper_lists{
-   font-size: 8px;
- }
-
- .size_ph{
-  display: none;
- }
-
- .basis_mein{
-  width: 250px;
-  height: 80px;
-  margin-left: -210px;
-  margin-top: -80px;
-  background: linear-gradient(to right, rgba(206, 19, 122, 0.692), rgba(132, 107, 241, 0.822));
- }
-
-
- .basis_main_size{
-   font-size: 20px;
- }
-
- .basis_job{
-  width: 120px;
-  height: 80px;
-  top: 220px;
-  left: 120px;
-  background: linear-gradient(to right, rgba(206, 19, 122, 0.692), rgba(132, 107, 241, 0.822));
- }
-
-
- .basis_job_col{
-   font-size: 15px;
- }
-
-
-
-
- .formalities{
-   margin-top: 470px;
- }
-
-
- .formalities_photo{
-   display: none;
- }
-
-
- .main-properties-name{
-   font-size: 10px;
- }
-
- .main-properties-middle{
-  font-size: 8px;
- }
-
- .basis_men{
-  width: 250px;
-  margin-left: 55px;
- }
-
- .basis_min_tu{
-   font-size: 10px;
- }
-
- .basis_max_cont{
-   font-size: 15px;
-   margin-left: -45px;
- }
-
- .basis_min_big{
-   font-size: 8px;
- }
-
- .basis_mimmax_cont{
-  width: 250px;
-  font-size: 8px;
-  margin-left: 50px;
-  text-align: center;
- }
-
- .basis_cont_max{
-   font-size: 8px;
- }
-
- .beginning_cont{
-   display: none;
- }
-
-
-}
-
-
-
