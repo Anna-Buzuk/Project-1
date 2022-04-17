@@ -355,8 +355,8 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 /*Robimy*/
 
 .basis_container{
-  width: 1600px;
-  height: 900px;
+  width: auto;
+  height: 1000px;
   background: rgba(245, 244, 250, 1);
   margin-bottom: 55px;
 }
@@ -371,14 +371,13 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 .container_row{
   align-content: center;
-   display: inline-block;
+  float: left;
+  margin: auto ;
 }
 
 
 .row_link{
-  display: inline-block;
-  margin-left: 150px;
-  margin-right: 180px;
+  margin: 50px 150px 50px;
   width: 150px;
   height: 150px;
   border-radius: 60%;
@@ -400,26 +399,22 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
 .container_row_big{
-  display: inline-block;
-  margin-left: 180px;
-  margin-right: 120px;
+  margin: 30px;
+  padding: 50px 100px 50px ;
   font-size: 30px;
   
 }
 
 .container_row_min{
-  display: inline-block;
   margin-left: 65px;
   margin-right: 55px;
 }
 
 .row_min_send{
+  text-align: center;
   width: 300px;
   height: 80px;
- 
-  padding-top : 15px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 10px 80px 0px ;
   border-radius: 5%;
   font-size: 20px;
   transition-duration: 1s;
