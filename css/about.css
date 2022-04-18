@@ -6,72 +6,180 @@ li {
  body{
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
-  background: #eee; 
-}
+  width: 1600px;}
 
 
 /*header*/
-
-.upper-big{
-  width: 1600px;
-  height: 80px; 
+.n{
+  z-index: 5;
+  position: fixed;
+  width:1600px;
+  height: 120px;
+  margin-top: -150px;
+  background:linear-gradient(to right, rgb(97, 30, 67), rgb(132, 107, 241)) ;
 }
 
-.upper_max_logo{
-  display: inline-block;
-  margin-left: 25px;
+
+
+
+
+.menu_one{
+position: fixed;
+margin-left: 600px;
+font-size: 50px;
+margin-top: 10px;
+font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sa
+}
+
+
+
+.menu {
+z-index: 5;
+position: fixed;
+margin-left: 180px;
+padding-top: 20px;
+font-size: 40px;
+font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu_size{
+  color: white;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+.menu_size:hover{
+  color: rgb(211, 183, 22);
+}
+
+
+.menu:hover{
+  color: rgb(14, 44, 218);
+}
+
+.hidden-menu {
+  display: block;
+  position: fixed;
+  list-style:none;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  width: 300px;
+  background-color: rgb(48, 48, 48);
+  height: 60%;
+  top: 0;
+  left: -580px;
+  margin-left: 270px;
+  margin-top: 25px;
+  transition: left .2s;
+  z-index: 2;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  }
+
+.hidden-menu li a {text-decoration: none; color:#cacaca;}
+.hidden-menu li a:hover {color:#fff;}
+.hidden-menu-ticker {
+    display: none;
+    }
+
+.btn-menu {
+color: #fff;
+background-color: #fff;
+padding: 2px;
+position: fixed;
+top: 48px;
+left: 360px;
+margin-left: 250px;
+cursor: pointer;
+transition: left .23s;
+z-index: 3;
+width: 20px;
+-webkit-transform: translateZ(0);
+-webkit-backface-visibility: hidden;
+}
+
+
+
+
+.btn-menu span {
+display: block;
+height: 2px;
+background-color: #000000;
+margin: 5px 0 0;
+transition: all .1s linear .23s;
+position: relative;
+}
+
+.btn-menu span.first {
+margin-top: 0;
 
 }
 
-.upper_max{
-  display: inline-block;
-  padding-top: -5px;
-  font-family: 'Roboto';
-  font-style: normal;
-  margin-left: 135px;
-  position: relative;
-  
+.hidden-menu-ticker:checked ~ .btn-menu {
+left: 270px;
+background-color: #fbfcfd;
+border-radius: 8%;
 }
 
-.upper_max::after{
-  content: "";
-    width: 100%;
-    height: 5px;
-    display: block;
-    background-color: rgb(3, 0, 197);
-    border-radius: 10px;
-    position: absolute;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transform: scaleX(0);
-}
+.hidden-menu-ticker:checked ~ .hidden-menu {
+left: 0; }
 
-.upper_max:hover::after{
-  transform: scaleX(1);
-}
-
-.upper_min {
-  text-decoration: none;
-  color: black ;
-  font-weight: 700;
-   font-size: 25px;
+.hidden-menu-ticker:checked ~ .btn-menu span.first {
+ -webkit-transform: rotate(45deg);
+top: 7px;
+background-color: rgb(10, 10, 10);
  }
 
- .upper_min:hover{
-  color: rgb(10, 156, 253);
+.hidden-menu-ticker:checked ~ .btn-menu span.second {
+   opacity: 0;
  }
+
+.hidden-menu-ticker:checked ~ .btn-menu span.third {
+-webkit-transform: rotate(-45deg);
+top: -7px;
+background-color: rgb(0, 0, 0);
+}
+
+/*ну а тут такое, стиль заголовка, шоб симпотичнее было :)*/
+header {
+background-color: #fff;
+color: #f2f6f8;
+text-align: center;
+padding: 5px;
+
+}
+ h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-weight: normal;
+}
+
 
 
 
 /*main*/
+
+
+.big_hed{
+font-size: 95px;
+padding-left: 0px;
+}
+
+
+
+
 .boss{
-  width: 1600px;
+  width: auto;
   height: 500px;
+  margin-top: 150px;
 }
 
 .big_bos_max{
   position: relative;
-  
 }
      
 
@@ -236,7 +344,7 @@ resize: none;
 .under_cellar{
   position: relative;
   background: rgba(47, 48, 58, 1);
-  width: 1604px;
+  width: auto;
   height: 290px;
   margin-top: 75px;
   top: 800px;
@@ -320,6 +428,36 @@ border: radius 5px;
 
 
 
+@media screen and (max-width:1200px)
+{
 
+  
+  body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;}
+
+  .upper-big{
+   width: 80%;
+  margin-bottom: 200px;
+   
+  }
+  .upper_max_logo{
+  display: none;
+
+  }
+
+
+  .upper_max{
+    display: inline;
+    
+  }
+
+ .upper_min{
+  
+ }
+
+
+}
 
 

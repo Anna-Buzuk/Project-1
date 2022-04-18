@@ -440,8 +440,8 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
 
- /*photo*/
-
+ 
+/*command*/
 
 
  .command_text{
@@ -457,12 +457,8 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
 
 
-
-
- /*command*/
-
 .command_photo{
-   width: 1520px;
+   width: auto;
    height: 800px;
    background: rgba(245, 244, 250, 1);
    padding-top: 5px;
@@ -474,7 +470,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  .Photo_one{
    width: 250px;
    height: 450px;
-   display: inline-block;
+   float: left;
    padding-top: 95px;
    padding: 25px;
    margin: 25px;
@@ -486,14 +482,21 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
  }
 
+
+ .Photo_one_size{
+
+ }
+
+
+
  .photo_one_name{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 800;
-font-size: 22px;
-line-height: 19px;
- text-align: center;
- margin-left: -25px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 19px;
+  text-align: center;
+  margin-left: -25px;
  }
 
  .photo_one_bos{
@@ -508,21 +511,16 @@ line-height: 19px;
   margin-left: -25px;
  }
 
- 
-.social_list{
-display: flex;
-}
-
 
 .social-item{
 width:30px;
 height: 40px;
 background-color: rgba(255, 254, 254, 0.356);
 border-radius: 60%;
-margin-top: 25px;
-margin-left: -15px;
 padding-right: 10px;
-display: inline-block;
+margin-left: -20px;
+margin-right: 10px;
+float: left;
 justify-content: center;
 }
 
@@ -559,27 +557,25 @@ display: flex;
  /*footer*/
 
  .size-foot{
-  width: 1604px;
+  width: auto;
   height: 290px;
   background: rgba(47, 48, 58, 1);
   margin-top: 75px;
   
  }
  .basement-hat{
-  display: inline-block;
   padding-top: 10px;
 }
 
  .sheet{
-    display: inline-block;
-    color: antiquewhite;
+  color: antiquewhite;
  }
 
 .sheet_hat{
-  padding-top: 5px;
-  color: white;
-  font-size: 20px;
-  font-family: 'Roboto';
+ padding-top: 5px;
+ color: white;
+ font-size: 20px;
+ font-family: 'Roboto';
  font-style: normal;
  font-weight: 700;
  text-decoration:none;
@@ -629,6 +625,7 @@ display: flex;
   border: radius 5px;
   }
 
+
   .but_inp{
     width: 110px;
     height: 34px;
@@ -652,10 +649,16 @@ display: flex;
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+
+
+
+
+
  /*forma*/
 
  .backdrop{
-   width: 100vw;
+   width: 115vw;
    height: 180vh;
    background-color: rgba(121, 121, 129, 0.788);
    position: fixed;
@@ -745,8 +748,8 @@ display: flex;
  }
  
  .form-field-but{
-   width: 140px;
-   height: 60px;
+  width: 140px;
+  height: 60px;
   margin-left: 190px;
   margin-right: 20px;
   margin-top: 30px;
