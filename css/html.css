@@ -87,9 +87,12 @@ body {
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif;
 }
 
+.area_big{
+  position: relative;
+}
 .area {
   position: absolute;
-  left: 16%;
+  left: 10%;
   margin-top: -15%;
   text-align: center;
   font-size: 6.5em;
@@ -794,4 +797,108 @@ display: flex;
 
 
 
+ @media only screen and (max-width: 1300px) {
+  body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px; 
+  }
+
+  .upper_list{
+    padding-left: 140px;
+  }
+
+  .basis{
+    width: auto;
+  }
+
+  .area{
+top: -105px;
+left: 17px;
+  }
+
+  .formalities_photo{
+    width: auto;
+    margin-left: -160px;
+  }
+
+
+  .basis_size{
+    margin-left: 45px;
+  }
+
+
+  .to_find_max{
+    margin-top: 80px;
+    margin-left: 15px;
+    width: 600px;
+  }
+
+  .сonditions_cont{
+    left: 700px;
+    top: 2130px;
+
+  }
+.conditions_bos{
+  left:850px;
+}
+
+.container_row{
+ width: 400px;
+ margin-left: -2%;
  
+}
+.row_min_send{
+width: 250px;
+margin-left: 30px;
+padding-top: 5px;
+}
+
+
+.Photo_one{
+  margin: 15px;
+  width: 200px;
+  height: 350px;
+}
+
+.Photo_one_size{
+  width: 180px;
+}
+
+.basement-end{
+  margin-left: 200px;
+}
+
+.end{
+  margin-left: 480px;
+}
+
+.middle-end{
+  margin-left: 800px;
+}
+ }
+
+
+
+ @media only screen and (max-width: 1100px) {
+
+  .basis_job{
+    left: 42%;
+  }
+
+ }
+ 
+ @media only screen and (max-width: 800px) {
+
+  .basis_job{
+    left: 62%;
+  }
+ }
+
+
+ @media only screen and (max-width: 800px) {
+
+  .basis_job{
+    left: 82%;
+  }
+ }
