@@ -983,7 +983,62 @@ padding-top: 5px;
   left: 310px;
 }
 
+.basic-properties{
+  margin-bottom: 450px;
+}
 
+.formalities_photo{
+  width: 500px;
+}
+
+
+.main-properties-part{
+  top:-340px;
+}
+
+.basis_men{
+  width: 1050px;
+  height: 800px;
+  margin: 35px;
+}
+
+.basis_min_tu{
+  width: 1000px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+.basis_size{
+  float: inherit;
+  margin-bottom: 90px;
+}
+
+
+.basis_min_tfree{
+  margin-left: 30%;
+}
+
+.basis_max_cont{
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.сonditions_cont{
+  top:5000px;
+}
+
+.conditions_bos{
+  top:5000px
+}
 
 
  }
