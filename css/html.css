@@ -801,9 +801,13 @@ display: flex;
   body{
     margin-left: auto;
     margin-right: auto;
-    width: 1300px; 
+    width: 1250px; 
   }
 
+
+  .size_ph{
+    width: 1250px;
+  }
   .upper_list{
     padding-left: 140px;
   }
@@ -824,7 +828,7 @@ left: 17px;
 
 
   .basis_size{
-    margin-left: 45px;
+    margin-left: 31px;
   }
 
 
@@ -880,27 +884,254 @@ padding-top: 5px;
 
 
 
- @media only screen and (max-width: 1100px) {
+ @media only screen and (max-width: 1200px) {
+
+  body{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1150px;
+  
+  }
+
+
+  .upper_list_job{
+    display: none;
+  }
+
+  .upper{
+    margin-top: 50px;
+  }
+
+  .upper_list{
+    padding-left: 90px;
+  }
+
 
   .basis_job{
-    left: 42%;
+    left: 40%;
   }
+
+
+  .size_ph{
+width: 1200px;
+  }
+
+
+  .area{
+    top: -170px;
+    left: 40px;
+  }
+
+
+  .formalities{
+    margin-left: 730px;
+  }
+
+  .formalities_photo{
+width: 600px;
+  }
+
+  .basis_men{
+    width: 1190px;
+    height: 350px;
+  }
+
+  .basis_size{
+    margin-left: 45px;
+  }
+
+
+  .basis_min_tfree{
+    width: 250px;
+  }
+
+  .to_find{
+    width: 1190px;
+  }
+  .to_find_max{
+ width: 600px;
+  }
+
+  .сonditions_cont{
+    top:2050px;
+  }
+
+  .conditions_min{
+    top:-300px;
+  }
+
+  .conditions_min_tu{
+    top: -180px;
+  }
+
+  .conditions_min_free{
+    top:-60px;
+  }
+
+  .basis_container{
+    width: 1190px;
+  }
+
+  .command_photo{
+    width: 1110px;
+  }
+
+  .Photo_one{
+    width: 180px;
+    height: 350px;
+  }
+
+
+  .size-foot{
+    width: 1190px;
+  }
+
+
 
  }
 
- @media only screen and (max-width: 1000px) {
+ @media only screen and (max-width: 1100px) {
+  body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    }
+
+    .upper_list{
+      padding-left: 100px;
+    }
 
   .basis_job{
     left: 52%;
   }
 
+
+.size_ph{
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 1199px;
+      }
+
+.basis_men{
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
-@media only screen and (max-width: 850px) {
 
-  .basis_job{
-    left: 62%;
+  .to_find{
+  margin-left: 30px;
+  margin-right: 30px;
   }
+
+
+  .basis_container{
+    margin-left: 30px;
+  margin-right: 30px;
+  }
+
+
+  .command_photo{
+    margin-left: 30px;
+    margin-right: 30px; 
+  }
+
+  .size-foot{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+  body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    }
+
+    .upper{
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+
+    .upper_list{
+      padding-left: 65px;
+    }
+
+    .size_ph{
+      margin-left: 30px;
+      margin-right: 30px;
+      width: 1100px;
+    }
+
+    .basis_job{
+      left:47%;
+    }
+
+
+    .area{
+      top: -190px;
+      left: 240px;
+    }
+
+
+    .formalities{
+      margin-top: 150px;
+    }
+
+    .formalities_photo{
+      width: 550px;
+    }
+
+    .basis_men{
+     width: 1100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    }
+
+    .basis_size{
+      margin-left: 25px;
+    }
+
+    .to_find{
+      width: 1100px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+
+    .to_find_max{
+      width: 550px;
+    }
+
+    .сonditions_cont{
+      left: 650px;
+    }
+
+    .conditions_min,.conditions_min_tu,.conditions_min_free{
+      left:-140px;
+    }
+
+    .basis_container{
+      width: 1100px;
+      height: 2400px;
+      margin-left: 30px;
+      margin-right: 30px;
+      m
+    }
+
+    .container_row{
+      margin-left: 300px;
+    }
+    
+
+
+
+
+
 
 }
 
@@ -930,7 +1161,13 @@ padding-top: 5px;
 
 }
 
+@media only screen and (max-width: 500px) {
 
+  .basis_job{
+    left: 95%;
+  }
+
+}
 
 
  @media only screen and (max-width: 400px) {
