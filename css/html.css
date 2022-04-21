@@ -1179,38 +1179,29 @@ width: 600px;
   }
 
   .upper{
-    margin-bottom: 250px;
+    margin-bottom: 120px;
     width: 400px;
     height: 200px;
   }
 
-  .head_house{
-    margin-left: 300px;
-    width: 300px;
-    height: 300px;
-    margin-top: -300px;
-  }
-
-  .logo_upper{
-    width: 300px;
-  }
-  .upper_lists{
-    font-size:30px ;
-  }
-
+ 
   .upper_list{
-   width: 200px;
-   height: 90px;
-    
+    padding-left: 100px;
+   
+  }
+
+  .upper_lists{
+    font-size: 30px;
   }
 
   .size_ph{
-    width: 1250px;
-    margin-left: 10px;
+    width: 1070px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
 .basis_job{
-  top: 550px;
+  top: 430px;
   left: 400px;
   margin-top: -55px;
 }
@@ -1260,22 +1251,67 @@ width: 600px;
   padding-bottom: 20px;
 }
 
-
-
-
-
-
-
-
-
-
 .сonditions_cont{
-  top:5000px;
+  top: 2950px;
+  left:600px;
+}
+
+.to_find{
+  width: 1050px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+
+.to_find_max{
+  width: 500px;
 }
 
 .conditions_bos{
-  top:5000px
+  top:3280px;
 }
 
+
+.conditions_min,.conditions_min_tu,.conditions_min_free{
+  left: -195px;
+}
+
+.basis_container{
+  width: 1050px;
+  margin-left: 40px;
+}
+
+.container_row{
+  margin-left: 25%;
+}
+
+
+.command_photo{
+  width: 970px;
+  height: 2100px;
+  margin-left: 40px;
+}
+
+.Photo_one{
+  margin-left: 35%;
+}
+
+.size-foot{
+  width: 1060px;
+  margin-left: 40px;
+}
+
+.basement-end{
+  margin-left: 120px;
+}
+
+.end{
+  margin-left: 360px;
+}
+
+.middle-end{
+  margin-left: 700px;
+}
 
  }
