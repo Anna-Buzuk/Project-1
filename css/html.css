@@ -486,9 +486,6 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
 
 
- .Photo_one_size{
-
- }
 
 
 
@@ -986,6 +983,11 @@ width: 600px;
     width: 1190px;
   }
 
+  .modal{
+ left: 60%;
+ top:65%;
+  }
+
 
 
  }
@@ -1039,6 +1041,12 @@ width: 600px;
     margin-left: 30px;
     margin-right: 30px;
   }
+
+  .modal{
+    left: 63%;
+    top: 65%;
+  }
+
 
 }
 
@@ -1120,7 +1128,7 @@ width: 600px;
       height: 2400px;
       margin-left: 30px;
       margin-right: 30px;
-      m
+  
     }
 
     .container_row{
@@ -1135,6 +1143,76 @@ width: 600px;
 
 }
 
+@media only screen and (max-width: 950px){
+  .backdrop{
+    width: 123vw;
+    height: 180vh;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .backdrop{
+    width: 133vw;
+    height: 180vh;
+  }
+
+  .modal{
+    left: 63%;
+    top: 75%;
+  }
+
+}
+
+
+@media only screen and (max-width: 850px){
+  .backdrop{
+    width: 140vw;
+    height: 180vh;
+  }
+
+  .modal{
+    left: 63%;
+    top: 75%;
+  }
+
+}
+
+
+@media only screen and (max-width: 800px){
+  .backdrop{
+    width: 147vw;
+    height: 180vh;
+  }
+
+  .modal{
+    left: 63%;
+    top: 75%;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 750px){
+  .backdrop{
+    width: 153vw;
+    height: 180vh;
+  }
+
+  .modal{
+    left: 63%;
+    top: 75%;
+  }
+
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 700px) {
 
@@ -1142,6 +1220,32 @@ width: 600px;
     left: 72%;
   }
 
+  .backdrop{
+    width: 165vw;
+    height: 180vh;
+  }
+
+  .modal{
+    left: 63%;
+    top: 75%;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 650px) {
+
+  
+  .backdrop{
+    width: 177vw;
+    height: 180vh;
+  }
+
+  .modal{
+    left: 63%;
+    top: 75%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1150,21 +1254,126 @@ width: 600px;
     left: 85%;
   }
 
+  .backdrop{
+    width: 193vw;
+    height: 180vh;
+  }
+
+  .modal{
+    left: 63%;
+    top: 75%;
+  }
+
 }
 
+
+@media only screen and (max-width: 550px) {
+
+  .basis_job{
+    left: 95%;
+  }
+  .backdrop{
+    width: 210vw;
+    height: 180vh;
+  }
+
+  .modal{
+    left: 63%;
+    top: 75%;
+  }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 525px) {
+
+  .basis_job{
+    left: 95%;
+  }
+
+  .backdrop{
+    width: 220vw;
+    height: 200vh;
+  }
+
+  .modal{
+    left: 63%;
+    top: 75%;
+  }
+
+
+}
 
 @media only screen and (max-width: 500px) {
 
   .basis_job{
     left: 95%;
   }
+  .backdrop{
+    width: 235vw;
+    height: 200vh;
+  }
+
+  .modal{
+    left: 63%;
+    top: 75%;
+  }
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 470px) {
 
   .basis_job{
     left: 95%;
+  }
+  .backdrop{
+    width: 245vw;
+    height: 230vh;
+  }
+
+  .modal{
+    left: 63%;
+    top: 60%;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 450px) {
+
+  .basis_job{
+    left: 95%;
+  }
+  .backdrop{
+    width: 260vw;
+    height: 230vh;
+  }
+
+  .modal{
+    left: 63%;
+    top: 60%;
+  }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+  .basis_job{
+    left: 95%;
+  }
+  .backdrop{
+    width: 270vw;
+    height: 230vh;
+  }
+
+  .modal{
+    left: 63%;
+    top: 60%;
   }
 
 }
@@ -1313,5 +1522,13 @@ width: 600px;
 .middle-end{
   margin-left: 700px;
 }
+
+ }
+
+
+ @media only screen and (max-width: 300px) {
+
+
+
 
  }
