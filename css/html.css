@@ -1063,4 +1063,122 @@ margin-left: 420px;
   .size_ph{
     width: 800px;
   }
+
+  .сonditions_cont{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px)
+{
+
+
+  body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px; 
+  }
+
+  .upper{
+    width: 1000px;
+  }
+
+  .upper_list_job{
+    padding-left: 5px;
+  }
+
+  .upper_list{
+    padding-left: 70px;
+  }
+
+  .size_ph{
+    width: 1000px; 
+  }
+
+  .basis_job{
+    left: 350px;
+    top: 150px;
+  }
+
+  .area{
+    left: 20px;
+    margin-top: -400px;
+  }
+
+  .formalities_photo{
+    display: none;
+  }
+
+  .formalities{
+  margin-top: 500px;
+  }
+
+
+  .basis_men{
+    width: 1000px;
+    height: 350px;
+    margin-top: 200px;
+  }
+
+  .basis_size{
+  margin-left: 5px;
+  margin-right: -20px;
+  }
+
+
+  .to_find_max{
+    display: none;
+  }
+
+  .сonditions_cont{
+    left: 700px;
+    top: 2105px;
+  }
+
+  .conditions_bos{
+    top: 2350px;
+    left: 250px;
+  }
+
+  .basis_container{
+    height: 1700px;
+  }
+
+  .container_row{
+    margin-left: -20px;
+  }
+
+  .command_photo{
+    height: 1400px;
+    padding-left: 150px;
+  }
+
+
+  .middle-end{
+    margin-top: 20px;
+    margin-left: 420px;
+  }
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+  .basis_job{
+    left: 550px;
+    top: 250px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 }
