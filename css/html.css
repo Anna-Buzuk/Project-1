@@ -794,4 +794,157 @@ display: flex;
 
 
 
+
+
+ @media screen and (max-width: 320px) {
+
+  body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px; 
+  }
+
+
+  .upper{
+    height: 100%;
+    padding-top: 15px;
+  }
+
+  .upper_list_job{
+   display: none;
+  }
+
+  .head_house{
+    margin-top: 0px;
+  }
+
+  .upper_list{
+    display: flex;
+    
+  }
+
+  .upper_lists{
+    font-size: 55px;
+  }
+
+  .upper_list::after{
+    display: none;
+  }
+
+  .basis{
+    width: 100%;
+  }
+
  
+
+.basis_job{
+  left: 100%;
+  top: 145%;
+  width: 500px;
+  height: 150px;
+}
+
+.area{
+  display: none;
+}
+
+.basis_job_col{
+font-size: 55px;
+}
+
+.formalities{
+  display: none;
+}
+
+.basic-properties{
+  margin-top: 550px;
+  font-size: 25px;
+}
+
+.main-properties-middle{
+  font-size: 25px;
+}
+
+
+.basis_men{
+  margin-top: 750px;
+}
+
+.conditions_bos{
+  left: 800px;
+  top:1600px;
+}
+
+
+.beginning_cont{
+  display: none;
+}
+
+.сonditions_cont{
+  top:1350px;
+  left: 700px;
+}
+
+.basis_men{
+  margin-top: 1000px;
+  width: 1200px;
+  height: 950px;
+}
+
+
+
+.basis_size{
+  margin-left: 35%;
+  margin-bottom: 160px;
+}
+
+.basis_max_cont{
+  font-size: 50px;
+}
+
+.basis_max_info{
+  font-size: 40px;
+}
+
+.basis_max_end{
+  font-size: 30px;
+}
+
+.to_find_bos{
+  width: 90px;
+}
+
+.to_find{
+  display: none;
+}
+
+.basis_container{
+  width: 1200px;
+  height: 2500px;
+}
+
+.container_row{
+  margin-left: 30%;
+}
+
+.command_photo{
+  width: 1120px;
+  height: 2500px;
+}
+
+
+.Photo_one{
+  margin-left: 35%;
+}
+
+.size-foot{
+  width: 1200px;
+  height: 400px;
+}
+
+.middle-end{
+margin-top: 130px ;
+margin-left: 420px;
+
+}
+}
