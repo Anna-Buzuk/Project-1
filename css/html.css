@@ -15,9 +15,29 @@ li {
 /*header*/
 .upper{
     width: auto;
-    height: 100px;
-    padding-bottom: 13px; 
+    height: 250px;
+    margin-bottom: 250px;
 }
+
+.bos{
+  position: relative;
+}
+
+
+
+.bos_b{
+  position: absolute;
+  top:9%;
+  left:15%;
+  opacity: 0.5;
+  
+}
+.bos_b:hover{
+  opacity: 0.3;
+  background-color: rgb(0,1,1,1);
+  }
+
+
 
 
 .upper_list_job{
@@ -26,56 +46,47 @@ li {
 }
 
 .head_house{
-  margin-top: -40px;
+  margin-left: 200px;
+  margin-top: -55px;
 }
 
 
 .upper_list{
+margin-right: 50px;
+width: 350px;
+height: 250px;
 display: inline-block;
 font-family: 'Roboto';
 font-style: normal;
-padding-left: 160px;
 }  
- 
-.color-list{
 
+.upper_listses{
+  position: absolute;
+  top: 30%;
+  left:5%;
+  text-decoration: none;
+  color: rgb(5, 5, 5);
+  padding-left: 13%;
+  font-size: 35px;
+font-weight: 700;
+}
+ 
+
+
+.color-list{
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
+  padding-top: 50%;
 
 }
 
 
 .upper_lists{
+  padding-top: 20%; 
    
-    color: rgb(0, 0, 0);
-    text-decoration:none;
-    font-family: Roboto;
-    font-size: 25px;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    text-align: left;
 }
 
-.upper_lists:hover{
-  color: rgb(10, 156, 253);
-}
-
-.upper_list::after{
-  content: "";
-  width: 100%;
-  height: 5px;
-  display: block;
-  background-color: rgb(3, 0, 197);
-  border-radius: 10px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: scaleX(0);
-}
-
-.upper_list:hover::after{
-  transform: scaleX(1);
-}
 
 
 
@@ -166,7 +177,7 @@ body {
   width: 300px;
   height: 110px;
   left:40%;
-  top:25%;
+  top:55%;
   border-radius: 14px;
   background:linear-gradient(to right, rgba(206, 19, 122, 0.068), rgba(132, 107, 241, 0.226)) ;
   -webkit-box-shadow: 22px 11px 19px 6px rgba(8, 20, 30, 0.52);
@@ -796,389 +807,4 @@ display: flex;
 
 
 
- @media screen and (max-width: 320px) {
-
-  body{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1000px; 
-  }
-
-
-  .upper{
-    height: 100%;
-    padding-top: 15px;
-  }
-
-  .upper_list_job{
-   display: none;
-  }
-
-  .head_house{
-    margin-top: 0px;
-  }
-
-  .upper_list{
-    display: flex;
-    
-  }
-
-  .upper_lists{
-    font-size: 55px;
-  }
-
-  .upper_list::after{
-    display: none;
-  }
-
-  .basis{
-    width: 100%;
-  }
-
  
-
-.basis_job{
-  left: 100%;
-  top: 145%;
-  width: 500px;
-  height: 150px;
-}
-
-.area{
-  display: none;
-}
-
-.basis_job_col{
-font-size: 55px;
-}
-
-.formalities{
-  display: none;
-}
-
-.basic-properties{
-  margin-top: 550px;
-  font-size: 25px;
-}
-
-.main-properties-middle{
-  font-size: 25px;
-}
-
-
-.basis_men{
-  margin-top: 750px;
-}
-
-.conditions_bos{
-  left: 800px;
-  top:1600px;
-}
-
-
-.beginning_cont{
-  display: none;
-}
-
-.сonditions_cont{
-  top:1350px;
-  left: 700px;
-}
-
-.basis_men{
-  margin-top: 1000px;
-  width: 1200px;
-  height: 950px;
-}
-
-
-
-.basis_size{
-  margin-left: 35%;
-  margin-bottom: 160px;
-}
-
-.basis_max_cont{
-  font-size: 50px;
-}
-
-.basis_max_info{
-  font-size: 40px;
-}
-
-.basis_max_end{
-  font-size: 30px;
-}
-
-.to_find_bos{
-  width: 90px;
-}
-
-.to_find{
-  display: none;
-}
-
-.basis_container{
-  width: 1200px;
-  height: 2500px;
-}
-
-.container_row{
-  margin-left: 30%;
-}
-
-.command_photo{
-  width: 1120px;
-  height: 2500px;
-}
-
-
-.Photo_one{
-  margin-left: 35%;
-}
-
-.size-foot{
-  width: 1200px;
-  height: 400px;
-}
-
-.middle-end{
-margin-top: 130px ;
-margin-left: 420px;
-
-}
-}
-
-@media screen and (max-width: 568px) {
-  body{
-    margin-left: auto;
-    margin-right: auto;
-    width: 850px; 
-  }
-
-  .upper{
-    width: 600px;
-   
-  }
-
-  .upper_list_job{
-    display: none;
-  }
-
-
-  .head_house{
-  margin-top: 30px;
-  margin-left: 5%;
-  }
-
-
-  .upper_list {
-    padding-left: 40px;
-    padding-right: 20px;
-  }
-
-
-
-  .basis{
-    margin-top: 30px;
-  }
-
-  .basis_job{
-    top: 200px;
-    left: 280px;
-  }
-
-  .area{
-    margin-top: -300px;
-    left:-50px;
-    font-size: 5em;
-  }
-
-  .formalities{
-    display: none;
-  }
-
-  .main-properties-part{
-    top:40px
-  }
-
-  .beginning_cont{
-    margin-top: 650px;
-  }
-
-  .basis_men{
-    margin-top: 200px;
-    width: 800px;
-    height: 650px;
-  }
-
-
-  .basis_size{
-    margin-left: 30%;
-  }
-
-  .to_find{
-    width: 800px;
-    height: 1300px;
-  }
-
-  .to_find_max{
-    width: 700px;
-    margin-left: 2%;
-  }
-
-  .conditions_bos{
-    left: 100px;
-    top: 3370px;
-  }
-
-  .basis_container{
-    width: 800px;
-    height: 2500px;
-  }
-
-  .container_row{
-  margin-left: 18%;
-  }
-
-  .command_photo{
-    width: 715px;
-    height: 1400px;
-  }
-
-
-  .Photo_one{
-    margin: 10px;
-  }
-
-  .size-foot{
-    width: 800px;
-  }
-
-  .middle-end{
-    margin-left: 350px;
-    margin-top: 50px;
-  }
-
-  .size_ph{
-    width: 800px;
-  }
-
-  .сonditions_cont{
-    display: none;
-  }
-}
-
-
-@media screen and (max-width: 768px)
-{
-
-
-  body{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1000px; 
-  }
-
-  .upper{
-    width: 1000px;
-  }
-
-  .upper_list_job{
-    padding-left: 5px;
-  }
-
-  .upper_list{
-    padding-left: 70px;
-  }
-
-  .size_ph{
-    width: 1000px; 
-  }
-
-  .basis_job{
-    left: 350px;
-    top: 150px;
-  }
-
-  .area{
-    left: 20px;
-    margin-top: -400px;
-  }
-
-  .formalities_photo{
-    display: none;
-  }
-
-  .formalities{
-  margin-top: 500px;
-  }
-
-
-  .basis_men{
-    width: 1000px;
-    height: 350px;
-    margin-top: 200px;
-  }
-
-  .basis_size{
-  margin-left: 5px;
-  margin-right: -20px;
-  }
-
-
-  .to_find_max{
-    display: none;
-  }
-
-  .сonditions_cont{
-    left: 700px;
-    top: 2105px;
-  }
-
-  .conditions_bos{
-    top: 2350px;
-    left: 250px;
-  }
-
-  .basis_container{
-    height: 1700px;
-  }
-
-  .container_row{
-    margin-left: -20px;
-  }
-
-  .command_photo{
-    height: 1400px;
-    padding-left: 150px;
-  }
-
-
-  .middle-end{
-    margin-top: 20px;
-    margin-left: 420px;
-  }
-
-}
-
-
-@media screen and (max-width: 992px) {
-
-  .basis_job{
-    left: 550px;
-    top: 250px;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-}
